@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ITRETURN:ITR xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" xmlns:ITR4SFORM="http://incometaxindiaefiling.gov.in/ITR4S" xmlns:ITRForm="http://incometaxindiaefiling.gov.in/master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ITR4SFORM:ITR4S>
+    <ITRForm:CreationInfo>
+        <ITRForm:SWVersionNo>R1</ITRForm:SWVersionNo>
+        <ITRForm:SWCreatedBy>DITEXCEL</ITRForm:SWCreatedBy>
+        <ITRForm:XMLCreatedBy>DIT</ITRForm:XMLCreatedBy>
+        <ITRForm:XMLCreationDate>2014-06-15</ITRForm:XMLCreationDate>
+        <ITRForm:IntermediaryCity>Delhi</ITRForm:IntermediaryCity>
+    </ITRForm:CreationInfo>
+    <ITRForm:Form_ITR4S>
+        <ITRForm:FormName>ITR-4S</ITRForm:FormName>
+        <ITRForm:Description>For Indl having Income From Presemptive Business</ITRForm:Description>
+        <ITRForm:AssessmentYear>2014</ITRForm:AssessmentYear>
+        <ITRForm:SchemaVer>Ver1.0</ITRForm:SchemaVer>
+        <ITRForm:FormVer>Ver1.0</ITRForm:FormVer>
+    </ITRForm:Form_ITR4S>
+    <ITRForm:PersonalInfo>
+         <ITRForm:AssesseeName>
+              <ITRForm:FirstName>AMRISH</ITRForm:FirstName>
+              <ITRForm:MiddleName>KUMAR</ITRForm:MiddleName>
+              <ITRForm:SurNameOrOrgName>GUPTA</ITRForm:SurNameOrOrgName>
+         </ITRForm:AssesseeName>
+         <ITRForm:PAN>ASWPG0660L</ITRForm:PAN>
+         <ITRForm:Address>
+              <ITRForm:ResidenceNo>GALI NO.02</ITRForm:ResidenceNo>
+              <ITRForm:RoadOrStreet>CHARAN SINGH MARG</ITRForm:RoadOrStreet>
+              <ITRForm:LocalityOrArea>ADARSH COLONY</ITRForm:LocalityOrArea>
+              <ITRForm:CityOrTownOrDistrict>MUZAFFARNAGAR</ITRForm:CityOrTownOrDistrict>
+              <ITRForm:StateCode>31</ITRForm:StateCode>
+              <ITRForm:CountryCode>91</ITRForm:CountryCode>
+              <ITRForm:PinCode>251001</ITRForm:PinCode>
+                    <ITRForm:MobileNo>9412213862</ITRForm:MobileNo>
+            <ITRForm:EmailAddress>advocateatulag@gmail.com</ITRForm:EmailAddress>
+         </ITRForm:Address>
+         <ITRForm:DOB>1986-11-27</ITRForm:DOB>
+         <ITRForm:EmployerCategory>OTH</ITRForm:EmployerCategory>
+         <ITRForm:Gender>M</ITRForm:Gender>
+         <ITRForm:Status>I</ITRForm:Status>
+    </ITRForm:PersonalInfo>
+    <ITRForm:FilingStatus>
+         <ITRForm:DesigOfficerWardorCircle>1(1)/MZR</ITRForm:DesigOfficerWardorCircle>
+         <ITRForm:ReturnFileSec>11</ITRForm:ReturnFileSec>
+         <ITRForm:ReturnType>O</ITRForm:ReturnType>
+         <ITRForm:ResidentialStatus>RES</ITRForm:ResidentialStatus>
+         <ITRForm:TaxStatus>NT</ITRForm:TaxStatus>
+         <ITRForm:PortugeseCC5A>N</ITRForm:PortugeseCC5A>
+    </ITRForm:FilingStatus>
+    <ITRForm:ITR4S_IncomeDeductions>
+           <ITRForm:IncomeFromBusinessProf>219980</ITRForm:IncomeFromBusinessProf>
+           <ITRForm:IncomeFromSal>0</ITRForm:IncomeFromSal>
+           <ITRForm:TotalIncomeOfHP>0</ITRForm:TotalIncomeOfHP>
+               <ITRForm:IncomeOthSrc>13262</ITRForm:IncomeOthSrc>
+           <ITRForm:GrossTotIncome>233242</ITRForm:GrossTotIncome>
+          <ITRForm:UsrDeductUndChapVIA>
+               <ITRForm:Section80C>11561</ITRForm:Section80C>
+               <ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+               <ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+               <ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+               <ITRForm:Section80D>0</ITRForm:Section80D>
+               <ITRForm:Section80DD>0</ITRForm:Section80DD>
+               <ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+               <ITRForm:Section80E>0</ITRForm:Section80E>
+               <ITRForm:Section80EE>0</ITRForm:Section80EE>
+               <ITRForm:Section80G>0</ITRForm:Section80G>
+               <ITRForm:Section80GG>0</ITRForm:Section80GG>
+               <ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+               <ITRForm:Section80U>0</ITRForm:Section80U>
+               <ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+               <ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+               <ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+               <ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+               <ITRForm:TotalChapVIADeductions>11561</ITRForm:TotalChapVIADeductions>
+          </ITRForm:UsrDeductUndChapVIA>
+          <ITRForm:DeductUndChapVIA>
+               <ITRForm:Section80C>11561</ITRForm:Section80C>
+               <ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+               <ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+               <ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+               <ITRForm:Section80D>0</ITRForm:Section80D>
+               <ITRForm:Section80DD>0</ITRForm:Section80DD>
+               <ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+               <ITRForm:Section80E>0</ITRForm:Section80E>
+               <ITRForm:Section80EE>0</ITRForm:Section80EE>
+               <ITRForm:Section80G>0</ITRForm:Section80G>
+               <ITRForm:Section80GG>0</ITRForm:Section80GG>
+               <ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+               <ITRForm:Section80U>0</ITRForm:Section80U>
+               <ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+               <ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+               <ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+               <ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+               <ITRForm:TotalChapVIADeductions>11561</ITRForm:TotalChapVIADeductions>
+          </ITRForm:DeductUndChapVIA>
+           <ITRForm:TotalIncome>221680</ITRForm:TotalIncome>
+    </ITRForm:ITR4S_IncomeDeductions>
+    <ITRForm:ITR4S_TaxComputation>
+           <ITRForm:TotalTaxPayable>2168</ITRForm:TotalTaxPayable>
+           <ITRForm:Rebate87A>2000</ITRForm:Rebate87A>
+           <ITRForm:TaxPayableOnRebate>168</ITRForm:TaxPayableOnRebate>
+           <ITRForm:SurchargeOnAboveCrore>0</ITRForm:SurchargeOnAboveCrore>
+           <ITRForm:EducationCess>5</ITRForm:EducationCess>
+           <ITRForm:GrossTaxLiability>173</ITRForm:GrossTaxLiability>
+           <ITRForm:Section89>0</ITRForm:Section89>
+           <ITRForm:NetTaxLiability>173</ITRForm:NetTaxLiability>
+               <ITRForm:TotalIntrstPay>6</ITRForm:TotalIntrstPay>
+<ITRForm:IntrstPay>
+<ITRForm:IntrstPayUs234A>6</ITRForm:IntrstPayUs234A>
+<ITRForm:IntrstPayUs234B>0</ITRForm:IntrstPayUs234B>
+<ITRForm:IntrstPayUs234C>0</ITRForm:IntrstPayUs234C>
+</ITRForm:IntrstPay>
+           <ITRForm:TotTaxPlusIntrstPay>179</ITRForm:TotTaxPlusIntrstPay>
+    </ITRForm:ITR4S_TaxComputation>
+    <ITRForm:TaxPaid>
+          <ITRForm:TaxesPaid>
+               <ITRForm:AdvanceTax>0</ITRForm:AdvanceTax>
+               <ITRForm:TDS>0</ITRForm:TDS>
+               <ITRForm:TCS>0</ITRForm:TCS>
+               <ITRForm:SelfAssessmentTax>180</ITRForm:SelfAssessmentTax>
+               <ITRForm:TotalTaxesPaid>180</ITRForm:TotalTaxesPaid>
+          </ITRForm:TaxesPaid>
+           <ITRForm:BalTaxPayable>0</ITRForm:BalTaxPayable>
+    </ITRForm:TaxPaid>
+    <ITRForm:Refund>
+           <ITRForm:RefundDue>0</ITRForm:RefundDue>
+           <ITRForm:BankAccountNumber>3955000101454449</ITRForm:BankAccountNumber>
+          <ITRForm:DepositToBankAccount>
+               <ITRForm:IFSCCode>PUNB0395500</ITRForm:IFSCCode>
+               <ITRForm:BankAccountType>SAV</ITRForm:BankAccountType>
+          </ITRForm:DepositToBankAccount>
+    </ITRForm:Refund>
+    <ITR4SFORM:TaxExmpIntInc>0</ITR4SFORM:TaxExmpIntInc>
+    <ITRForm:Verification>
+          <ITRForm:Declaration>
+               <ITRForm:AssesseeVerName>AMRISH KUMAR GUPTA</ITRForm:AssesseeVerName>
+               <ITRForm:FatherName>SH.S.C.GUPTA</ITRForm:FatherName>
+               <ITRForm:AssesseeVerPAN>ASWPG0660L</ITRForm:AssesseeVerPAN>
+          </ITRForm:Declaration>
+           <ITRForm:Place>MUZAFFARNAGAR(U.P.)</ITRForm:Place>
+           <ITRForm:Date>2015-01-11</ITRForm:Date>
+    </ITRForm:Verification>
+          <ITRForm:NatOfBus>
+               <ITRForm:Business>
+                   <ITRForm:Code>0202</ITRForm:Code>
+                  <ITRForm:Trade>
+                       <ITRForm:TradeName>SURESH GUPTA PROVISION STORE</ITRForm:TradeName>
+                  </ITRForm:Trade>
+               </ITRForm:Business>
+               <ITRForm:Business>
+                   <ITRForm:Code>0203</ITRForm:Code>
+                  <ITRForm:Trade>
+                       <ITRForm:TradeName>SURESH GUPTA PROVISION STORE</ITRForm:TradeName>
+                  </ITRForm:Trade>
+               </ITRForm:Business>
+          </ITRForm:NatOfBus>
+               <ITRForm:ScheduleBPForITR4S>
+                       <ITRForm:PersumptiveInc44AD>
+                           <ITRForm:GrsTrnOverOrReceipt>2199800</ITRForm:GrsTrnOverOrReceipt>
+            <ITRForm:TotPersumptiveInc44AD>219980</ITRForm:TotPersumptiveInc44AD>
+        </ITRForm:PersumptiveInc44AD>
+        <ITRForm:PersumptiveInc44AE>
+            <ITRForm:PersumptiveIncHeavyVehicle>0</ITRForm:PersumptiveIncHeavyVehicle>
+            <ITRForm:PersumptiveIncOtherVehicle>0</ITRForm:PersumptiveIncOtherVehicle>
+            <ITRForm:TotPersumInc44AE>0</ITRForm:TotPersumInc44AE>
+        </ITRForm:PersumptiveInc44AE>
+        <ITRForm:IncChargeableUnderBus>219980</ITRForm:IncChargeableUnderBus>
+        <ITRForm:NoBooksOfAccBS>
+            <ITRForm:TotSundryDbtAmt>98500</ITRForm:TotSundryDbtAmt>
+            <ITRForm:TotSundryCrdAmt>0</ITRForm:TotSundryCrdAmt>
+            <ITRForm:TotStkInTradAmt>148300</ITRForm:TotStkInTradAmt>
+            <ITRForm:CashBalAmt>54266</ITRForm:CashBalAmt>
+        </ITRForm:NoBooksOfAccBS>
+    </ITRForm:ScheduleBPForITR4S>
+    <ITRForm:ScheduleIT>
+           <ITRForm:TaxPayment>
+               <ITRForm:BSRCode>0300184</ITRForm:BSRCode>
+               <ITRForm:DateDep>2015-01-12</ITRForm:DateDep>
+               <ITRForm:SrlNoOfChaln>00016</ITRForm:SrlNoOfChaln>
+               <ITRForm:Amt>180</ITRForm:Amt>
+           </ITRForm:TaxPayment>
+    </ITRForm:ScheduleIT>
+</ITR4SFORM:ITR4S>
+</ITRETURN:ITR>

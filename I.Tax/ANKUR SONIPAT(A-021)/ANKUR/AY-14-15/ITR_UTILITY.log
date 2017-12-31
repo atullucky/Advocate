@@ -1,0 +1,36 @@
+Jun 24, 2014 8:20:22 PM com.tcs.efiling.itr.config.Logger info
+INFO: init starts
+Jun 24, 2014 8:20:23 PM com.tcs.efiling.itr.config.Logger info
+INFO: init ends in 812 ms.
+Jun 24, 2014 8:20:23 PM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method starts
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: openNewITR starts with values: asstYear:2014-15,itr:ITR-1,ver:1.0,importXml:null
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: Opening ITR: ITR-1 For AsstYear: 2014-15
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: generateCopy starts
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: initialize starts
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: initialize ends
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation starts
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: webViewActWidth in: 808.96,vboxActWidth:  174.08,mainController.windowWidth: 1024.0
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: hide validation
+Jun 24, 2014 8:20:25 PM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation ends
+Jun 24, 2014 8:20:26 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in openNewITR(): 984
+Jun 24, 2014 8:20:26 PM com.tcs.efiling.itr.config.Logger info
+INFO: calculateITR starts
+Jun 24, 2014 8:20:26 PM com.tcs.efiling.itr.config.Logger info
+INFO: mainController.windowWidth new : 1024.0
+Jun 24, 2014 8:20:27 PM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method ends. Time taken: 3750
+Jun 24, 2014 8:20:30 PM com.tcs.efiling.itr.config.Logger info
+INFO: javascript: to run: 
+Jun 24, 2014 8:20:30 PM com.tcs.efiling.itr.config.Logger info
+INFO: time taken in changed : 750

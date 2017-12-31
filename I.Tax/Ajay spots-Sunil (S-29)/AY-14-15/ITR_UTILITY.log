@@ -1,0 +1,1280 @@
+Jun 21, 2014 11:31:39 AM com.tcs.efiling.itr.config.Logger info
+INFO: init starts
+Jun 21, 2014 11:31:42 AM com.tcs.efiling.itr.config.Logger info
+INFO: init ends in 2891 ms.
+Jun 21, 2014 11:31:43 AM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method starts
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: openNewITR starts with values: asstYear:2014-15,itr:ITR-4S,ver:1.0,importXml:null
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: Opening ITR: ITR-4S For AsstYear: 2014-15
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: generateCopy starts
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: initialize starts
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: initialize ends
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation starts
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: webViewActWidth in: 808.96,vboxActWidth:  174.08,mainController.windowWidth: 1024.0
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: hide validation
+Jun 21, 2014 11:31:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation ends
+Jun 21, 2014 11:31:49 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in openNewITR(): 1281
+Jun 21, 2014 11:31:50 AM com.tcs.efiling.itr.config.Logger info
+INFO: calculateITR starts
+Jun 21, 2014 11:31:50 AM com.tcs.efiling.itr.config.Logger info
+INFO: mainController.windowWidth new : 1024.0
+Jun 21, 2014 11:31:51 AM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method ends. Time taken: 7829
+Jun 21, 2014 11:31:56 AM com.tcs.efiling.itr.config.Logger info
+INFO: javascript: to run: 
+Jun 21, 2014 11:31:56 AM com.tcs.efiling.itr.config.Logger info
+INFO: time taken in changed : 1125
+Jun 21, 2014 11:34:24 AM com.tcs.efiling.itr.config.Logger info
+INFO: importXmlDialog starts
+Jun 21, 2014 11:34:24 AM com.tcs.efiling.itr.config.Logger info
+INFO: saveIfNot starts: type: 4
+Jun 21, 2014 11:34:25 AM com.tcs.efiling.itr.config.Logger info
+INFO: saveIfNot after shows: 
+Jun 21, 2014 11:34:25 AM com.tcs.efiling.itr.config.Logger info
+INFO: importXmlDialog ends
+Jun 21, 2014 11:34:34 AM com.tcs.efiling.itr.config.Logger info
+INFO: newFile starts
+Jun 21, 2014 11:34:34 AM com.tcs.efiling.itr.config.Logger info
+INFO: saveIfNot starts: type: 3
+Jun 21, 2014 11:34:34 AM com.tcs.efiling.itr.config.Logger info
+INFO: saveIfNot after shows: 
+Jun 21, 2014 11:34:34 AM com.tcs.efiling.itr.config.Logger info
+INFO: newFile ends
+Jun 21, 2014 11:35:41 AM com.tcs.efiling.itr.config.Logger info
+INFO: prefill caled
+Jun 21, 2014 11:36:43 AM com.tcs.efiling.itr.config.Logger info
+INFO: prefill caled
+Jun 21, 2014 11:36:44 AM com.tcs.efiling.itr.config.Logger info
+INFO: webservie url: https://incometaxindiaefiling.gov.in/e-FilingWS/ditws
+Jun 21, 2014 11:36:44 AM com.tcs.efiling.itr.config.Logger info
+INFO: prefill ends after starting thread: 
+Jun 21, 2014 11:36:44 AM com.tcs.efiling.itr.config.Logger info
+INFO: call starts 
+Jun 21, 2014 11:36:44 AM com.tcs.efiling.itr.config.Logger info
+INFO: sendRequest starts
+Jun 21, 2014 11:36:45 AM com.tcs.efiling.itr.config.Logger info
+INFO: soapMessage <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><PrefillRequest><UserId>APIPK0101M</UserId><Password>atul@007</Password><Dob>15/07/1970</Dob><ITR>ITR-4S</ITR><AsstYear>2014-15</AsstYear><AddressFlag>2</AddressFlag></PrefillRequest></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Jun 21, 2014 11:36:48 AM com.tcs.efiling.itr.config.Logger error
+SEVERE: Error in sendRequest: 
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.tcs.efiling.itr.main.PrefillUtil.sendRequest(PrefillUtil.java:112)
+	at com.tcs.efiling.itr.main.PrefillUtil.call(PrefillUtil.java:90)
+	at com.tcs.efiling.itr.main.PrefillUtil.call(PrefillUtil.java:37)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1259)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	... 8 more
+
+CAUSE:
+
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.tcs.efiling.itr.main.PrefillUtil.sendRequest(PrefillUtil.java:112)
+	at com.tcs.efiling.itr.main.PrefillUtil.call(PrefillUtil.java:90)
+	at com.tcs.efiling.itr.main.PrefillUtil.call(PrefillUtil.java:37)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1259)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Jun 21, 2014 11:36:48 AM com.tcs.efiling.itr.config.Logger error
+SEVERE: Exception in submit: 
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.tcs.efiling.itr.main.PrefillUtil.sendRequest(PrefillUtil.java:112)
+	at com.tcs.efiling.itr.main.PrefillUtil.call(PrefillUtil.java:90)
+	at com.tcs.efiling.itr.main.PrefillUtil.call(PrefillUtil.java:37)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1259)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	... 8 more
+
+CAUSE:
+
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.tcs.efiling.itr.main.PrefillUtil.sendRequest(PrefillUtil.java:112)
+	at com.tcs.efiling.itr.main.PrefillUtil.call(PrefillUtil.java:90)
+	at com.tcs.efiling.itr.main.PrefillUtil.call(PrefillUtil.java:37)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1259)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Jun 21, 2014 11:36:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: sendrequest ends
+Jun 21, 2014 11:36:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: call ends Time taken:4516
+Jun 21, 2014 11:36:48 AM com.tcs.efiling.itr.config.Logger info
+INFO: cancel caled
+Jun 21, 2014 11:36:56 AM com.tcs.efiling.itr.config.Logger info
+INFO: cancel caled
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger info
+INFO: show validation
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in validateAll(): 0
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: requestId
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.creationInfo.xmlCreationDate
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: totalPage
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: returnType
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: customReturnType
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: 
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.currentPage
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.itr4sTaxComputationOnline.surchargeOnTaxPayable
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_IT
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_scheduleFA.detailsOfTrustOutIndiaTrustee[0].chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleBPForITR4S.incChargeableUnderBus
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 21, 2014 11:41:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.taxPaid.taxesPaid.tcs
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totDon100Percent
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totEligibleDon100Percent
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_TDS1
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd
+Jun 21, 2014 11:41:51 AM com.tcs.efiling.itr.config.Logger info
+INFO: Call() ends time taken: 250  error count :8
+Jun 21, 2014 11:43:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 21, 2014 11:43:50 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 21, 2014 11:43:51 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 21, 2014 11:45:11 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleBPForITR4S.incChargeableUnderBus
+Jun 21, 2014 11:52:55 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.taxPaid.taxesPaid.tcs
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger info
+INFO: show validation
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in validateAll(): 0
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: requestId
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.creationInfo.xmlCreationDate
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: totalPage
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: returnType
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: customReturnType
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: 
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.currentPage
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.itr4sTaxComputationOnline.surchargeOnTaxPayable
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_IT
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_scheduleFA.detailsOfTrustOutIndiaTrustee[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleBPForITR4S.incChargeableUnderBus
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.taxPaid.taxesPaid.tcs
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totDon100Percent
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totEligibleDon100Percent
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_TDS1
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd
+Jun 21, 2014 11:56:10 AM com.tcs.efiling.itr.config.Logger info
+INFO: Call() ends time taken: 141  error count :0
+Jun 21, 2014 11:57:21 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to start generateXml(): 0
+Jun 21, 2014 11:57:21 AM com.tcs.efiling.itr.config.Logger info
+INFO: outputfilePathD:\Advocate\I.Tax\Ajay spots-Sunil (S-29)\AY-14-15\SUNIL.xml,generateXmlFlag: true
+Jun 21, 2014 11:57:24 AM com.tcs.efiling.itr.config.Logger info
+INFO: done with schema error; 0
+Jun 21, 2014 11:57:24 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to generate: 3500
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger info
+INFO: show validation
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in validateAll(): 0
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: requestId
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.creationInfo.xmlCreationDate
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: totalPage
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: returnType
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: customReturnType
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: 
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.currentPage
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.itr4sTaxComputationOnline.surchargeOnTaxPayable
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_IT
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_scheduleFA.detailsOfTrustOutIndiaTrustee[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleBPForITR4S.incChargeableUnderBus
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.taxPaid.taxesPaid.tcs
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totDon100Percent
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totEligibleDon100Percent
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_TDS1
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger info
+INFO: Call() ends time taken: 110  error count :0
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger info
+INFO: submit itr starts
+Jun 21, 2014 11:57:39 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to start generateXml(): 0
+Jun 21, 2014 11:57:40 AM com.tcs.efiling.itr.config.Logger info
+INFO: outputfilePathC:\DOCUME~1\sss\LOCALS~1\Temp\ITR10595700568972804769072497286.xml,generateXmlFlag: true
+Jun 21, 2014 11:57:40 AM com.tcs.efiling.itr.config.Logger info
+INFO: done with schema error; 0
+Jun 21, 2014 11:57:40 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to generate: 844
+Jun 21, 2014 11:57:41 AM com.tcs.efiling.itr.config.Logger info
+INFO: initialize submit itr starts
+Jun 21, 2014 11:57:41 AM com.tcs.efiling.itr.config.Logger error
+SEVERE: initUsbTokens error
+java.lang.Exception: The KeyStore is empty
+	at com.tcs.efiling.itr.config.UsbTokenUtil.getUsbTokenData(UsbTokenUtil.java:56)
+	at com.tcs.efiling.itr.main.SubmitItrDialogController.initUsbTokens(SubmitItrDialogController.java:147)
+	at com.tcs.efiling.itr.main.SubmitItrDialogController.initialize(SubmitItrDialogController.java:138)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2152)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2028)
+	at com.tcs.efiling.itr.main.NewITRDialog.<init>(NewITRDialog.java:36)
+	at com.tcs.efiling.itr.main.MainController.OpenSubmitDialog(MainController.java:925)
+	at com.tcs.efiling.itr.main.ITRUtil$3.run(ITRUtil.java:835)
+	at com.sun.javafx.application.PlatformImpl$4.run(PlatformImpl.java:173)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.access$100(WinApplication.java:29)
+	at com.sun.glass.ui.win.WinApplication$3$1.run(WinApplication.java:73)
+	at java.lang.Thread.run(Unknown Source)
+
+Jun 21, 2014 11:57:42 AM com.tcs.efiling.itr.config.Logger info
+INFO: dscMandatory starts::ITR-4S
+Jun 21, 2014 11:57:42 AM com.tcs.efiling.itr.config.Logger info
+INFO: dscMandatory ends
+Jun 21, 2014 11:58:36 AM com.tcs.efiling.itr.config.Logger info
+INFO: validateDSCKey ends with flag: true
+Jun 21, 2014 11:58:36 AM com.tcs.efiling.itr.config.Logger info
+INFO: hash is : jlD6N/gDqS7NgqRf1t9WJA==
+Jun 21, 2014 11:58:36 AM com.tcs.efiling.itr.config.Logger info
+INFO: webservie url: https://incometaxindiaefiling.gov.in/e-FilingWS/ditws
+Jun 21, 2014 11:58:36 AM com.tcs.efiling.itr.config.Logger info
+INFO: Thread call starts
+Jun 21, 2014 11:58:36 AM com.tcs.efiling.itr.config.Logger info
+INFO: sendRequest starts
+Jun 21, 2014 11:58:36 AM com.tcs.efiling.itr.config.Logger info
+INFO: soapMessage ------=_Part_0_30138521.1403332116328
+Content-Type: text/xml; charset=utf-8
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><SubmitITRRequest><UserId>APIPK0101M</UserId><Password>atul@007</Password><Dob>15/07/1970</Dob><ITR>ITR-4S</ITR><AsstYear>2014-15</AsstYear><Version>1.0</Version><Pan>APIPK0101M</Pan><DscFlag>N</DscFlag><Section44AB>N</Section44AB><VerifPan>APIPK0101M</VerifPan><JarHash>jlD6N/gDqS7NgqRf1t9WJA==</JarHash></SubmitITRRequest></SOAP-ENV:Body></SOAP-ENV:Envelope>
+------=_Part_0_30138521.1403332116328
+Content-Type: application/octet-stream
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Sample XML file generated by XMLSpy v2013 rel. 2 (http://www.altova.com)--><ITRETURN:ITR xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" xmlns:ITR4SFORM="http://incometaxindiaefiling.gov.in/ITR4S" xmlns:ITRForm="http://incometaxindiaefiling.gov.in/master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://incometaxindiaefiling.gov.in/main ITRMain13.xsd">
+	<ITR4SFORM:ITR4S>
+		<ITRForm:CreationInfo>
+            <ITRForm:SWVersionNo>R1</ITRForm:SWVersionNo>
+            <ITRForm:SWCreatedBy>DIT-EFILING-JAVA</ITRForm:SWCreatedBy>
+            <ITRForm:XMLCreatedBy>DIT-EFILING-JAVA</ITRForm:XMLCreatedBy>
+            <ITRForm:XMLCreationDate>2014-06-21</ITRForm:XMLCreationDate>
+            <ITRForm:IntermediaryCity>Delhi</ITRForm:IntermediaryCity>
+        </ITRForm:CreationInfo>
+        <ITRForm:Form_ITR4S>
+            <ITRForm:FormName>ITR-4S</ITRForm:FormName>
+            <ITRForm:Description>For Indl having Income From Presemptive Business</ITRForm:Description>
+            <ITRForm:AssessmentYear>2014</ITRForm:AssessmentYear>
+            <ITRForm:SchemaVer>Ver1.0</ITRForm:SchemaVer>
+            <ITRForm:FormVer>Ver1.0</ITRForm:FormVer>
+        </ITRForm:Form_ITR4S>
+		<ITRForm:PersonalInfo>
+			<ITRForm:AssesseeName>
+				<ITRForm:FirstName>SUNIL</ITRForm:FirstName>
+				
+				<ITRForm:SurNameOrOrgName>KUMAR</ITRForm:SurNameOrOrgName>
+				
+			</ITRForm:AssesseeName>
+			<ITRForm:PAN>APIPK0101M</ITRForm:PAN>
+			<ITRForm:Address>
+				<ITRForm:ResidenceNo>23</ITRForm:ResidenceNo>
+				
+				<ITRForm:RoadOrStreet>GAUSHALA ROAD</ITRForm:RoadOrStreet>
+				<ITRForm:LocalityOrArea>NEW MANDI</ITRForm:LocalityOrArea>
+				<ITRForm:CityOrTownOrDistrict>MUZAFFARNAGAR</ITRForm:CityOrTownOrDistrict>
+				<ITRForm:StateCode>31</ITRForm:StateCode>
+				<ITRForm:CountryCode>91</ITRForm:CountryCode>
+				<ITRForm:PinCode>251001</ITRForm:PinCode>
+				
+				<ITRForm:MobileNo>9412213862</ITRForm:MobileNo>
+				
+				<ITRForm:EmailAddress>advocateatulag@gmail.com</ITRForm:EmailAddress>
+				
+			</ITRForm:Address>
+			<ITRForm:DOB>1970-07-15</ITRForm:DOB>
+			<ITRForm:EmployerCategory>NA</ITRForm:EmployerCategory>
+			<ITRForm:Gender>M</ITRForm:Gender>
+			<ITRForm:Status>I</ITRForm:Status>
+		</ITRForm:PersonalInfo>
+		<ITRForm:FilingStatus>
+			<ITRForm:DesigOfficerWardorCircle>2(3)/MZR</ITRForm:DesigOfficerWardorCircle>
+			<ITRForm:ReturnFileSec>11</ITRForm:ReturnFileSec>
+			
+			
+			
+			<ITRForm:ReturnType>O</ITRForm:ReturnType>
+			
+			
+			<ITRForm:ResidentialStatus>RES</ITRForm:ResidentialStatus>
+			<ITRForm:TaxStatus>NT</ITRForm:TaxStatus>
+			
+			
+			<ITRForm:PortugeseCC5A>N</ITRForm:PortugeseCC5A>
+			
+			
+		</ITRForm:FilingStatus>
+		<ITRForm:ITR4S_IncomeDeductions>
+			<ITRForm:IncomeFromBusinessProf>229690</ITRForm:IncomeFromBusinessProf>
+			<ITRForm:IncomeFromSal>0</ITRForm:IncomeFromSal>
+			
+			<ITRForm:TotalIncomeOfHP>0</ITRForm:TotalIncomeOfHP>
+			<ITRForm:IncomeOthSrc>36000</ITRForm:IncomeOthSrc>
+			<ITRForm:GrossTotIncome>265690</ITRForm:GrossTotIncome>
+			<ITRForm:UsrDeductUndChapVIA>
+				<ITRForm:Section80C>92082</ITRForm:Section80C>
+				<ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+				<ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+				<ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+				<ITRForm:Section80D>0</ITRForm:Section80D>
+				<ITRForm:Section80DD>0</ITRForm:Section80DD>
+				<ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+				<ITRForm:Section80E>0</ITRForm:Section80E>
+				<ITRForm:Section80EE>0</ITRForm:Section80EE>
+				<ITRForm:Section80G>0</ITRForm:Section80G>
+				<ITRForm:Section80GG>0</ITRForm:Section80GG>
+				
+				<ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+				<ITRForm:Section80U>0</ITRForm:Section80U>
+				<ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+				<ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+				
+				
+				
+				
+				
+				
+				<ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+				<ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+				<ITRForm:TotalChapVIADeductions>92082</ITRForm:TotalChapVIADeductions>
+			</ITRForm:UsrDeductUndChapVIA>
+			<ITRForm:DeductUndChapVIA>
+				<ITRForm:Section80C>92082</ITRForm:Section80C>
+				<ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+				<ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+				<ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+				<ITRForm:Section80D>0</ITRForm:Section80D>
+				<ITRForm:Section80DD>0</ITRForm:Section80DD>
+				<ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+				<ITRForm:Section80E>0</ITRForm:Section80E>
+				<ITRForm:Section80EE>0</ITRForm:Section80EE>
+				<ITRForm:Section80G>0</ITRForm:Section80G>
+				<ITRForm:Section80GG>0</ITRForm:Section80GG>
+				
+				<ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+				<ITRForm:Section80U>0</ITRForm:Section80U>
+				<ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+				<ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+				
+				
+				
+				
+				
+				
+				<ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+				<ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+				<ITRForm:TotalChapVIADeductions>92082</ITRForm:TotalChapVIADeductions>
+			</ITRForm:DeductUndChapVIA>
+			<ITRForm:TotalIncome>173610</ITRForm:TotalIncome>
+		</ITRForm:ITR4S_IncomeDeductions>
+		<ITRForm:ITR4S_TaxComputation>
+			<ITRForm:TotalTaxPayable>0</ITRForm:TotalTaxPayable>
+			<ITRForm:Rebate87A>0</ITRForm:Rebate87A>
+			<ITRForm:TaxPayableOnRebate>0</ITRForm:TaxPayableOnRebate>
+			<ITRForm:SurchargeOnAboveCrore>0</ITRForm:SurchargeOnAboveCrore>
+			<ITRForm:EducationCess>0</ITRForm:EducationCess>
+			<ITRForm:GrossTaxLiability>0</ITRForm:GrossTaxLiability>
+			<ITRForm:Section89>0</ITRForm:Section89>
+			<ITRForm:NetTaxLiability>0</ITRForm:NetTaxLiability>
+			<ITRForm:TotalIntrstPay>0</ITRForm:TotalIntrstPay>
+			<ITRForm:IntrstPay>
+				<ITRForm:IntrstPayUs234A>0</ITRForm:IntrstPayUs234A>
+				<ITRForm:IntrstPayUs234B>0</ITRForm:IntrstPayUs234B>
+				<ITRForm:IntrstPayUs234C>0</ITRForm:IntrstPayUs234C>
+				
+			</ITRForm:IntrstPay>
+			<ITRForm:TotTaxPlusIntrstPay>0</ITRForm:TotTaxPlusIntrstPay>
+		</ITRForm:ITR4S_TaxComputation>
+		<ITRForm:TaxPaid>
+			<ITRForm:TaxesPaid>
+				<ITRForm:AdvanceTax>0</ITRForm:AdvanceTax>
+				<ITRForm:TDS>0</ITRForm:TDS>
+				<ITRForm:TCS>0</ITRForm:TCS>
+				<ITRForm:SelfAssessmentTax>0</ITRForm:SelfAssessmentTax>
+				<ITRForm:TotalTaxesPaid>0</ITRForm:TotalTaxesPaid>
+			</ITRForm:TaxesPaid>
+			<ITRForm:BalTaxPayable>0</ITRForm:BalTaxPayable>
+		</ITRForm:TaxPaid>
+		<ITRForm:Refund>
+			<ITRForm:RefundDue>0</ITRForm:RefundDue>
+			<ITRForm:BankAccountNumber>00000000001</ITRForm:BankAccountNumber>
+			<ITRForm:DepositToBankAccount>
+				<ITRForm:IFSCCode>PUNB0000001</ITRForm:IFSCCode>
+				<ITRForm:BankAccountType>SAV</ITRForm:BankAccountType>
+			</ITRForm:DepositToBankAccount>
+		</ITRForm:Refund>
+		
+		
+		<ITRForm:Verification>
+			<ITRForm:Declaration>
+				<ITRForm:AssesseeVerName>SUNIL KUMAR</ITRForm:AssesseeVerName>
+				<ITRForm:FatherName>LATE SH.RAJPAL SINGH</ITRForm:FatherName>
+				<ITRForm:AssesseeVerPAN>APIPK0101M</ITRForm:AssesseeVerPAN>
+			</ITRForm:Declaration>
+			<ITRForm:Place>MUZAFFARNAGAR</ITRForm:Place>
+			<ITRForm:Date>2014-06-21</ITRForm:Date>
+		</ITRForm:Verification>
+		
+		<ITRForm:NatOfBus>
+			<ITRForm:Business>
+				<ITRForm:Code>0202</ITRForm:Code>
+				<ITRForm:Trade>
+					<ITRForm:TradeName>AJAY SPORTS</ITRForm:TradeName>
+					
+					
+				</ITRForm:Trade>
+			</ITRForm:Business>
+			
+			
+		</ITRForm:NatOfBus>
+		
+		
+		<ITRForm:ScheduleBPForITR4S>
+			<ITRForm:PersumptiveInc44AD>
+				<ITRForm:GrsTrnOverOrReceipt>2296900</ITRForm:GrsTrnOverOrReceipt>
+				<ITRForm:TotPersumptiveInc44AD>229690</ITRForm:TotPersumptiveInc44AD>
+			</ITRForm:PersumptiveInc44AD>
+			<ITRForm:PersumptiveInc44AE>
+				<ITRForm:PersumptiveIncHeavyVehicle>0</ITRForm:PersumptiveIncHeavyVehicle>
+				<ITRForm:PersumptiveIncOtherVehicle>0</ITRForm:PersumptiveIncOtherVehicle>
+				<ITRForm:TotPersumInc44AE>0</ITRForm:TotPersumInc44AE>
+			</ITRForm:PersumptiveInc44AE>
+			<ITRForm:IncChargeableUnderBus>229690</ITRForm:IncChargeableUnderBus>
+			<ITRForm:NoBooksOfAccBS>
+				<ITRForm:TotSundryDbtAmt>18700</ITRForm:TotSundryDbtAmt>
+				<ITRForm:TotSundryCrdAmt>0</ITRForm:TotSundryCrdAmt>
+				<ITRForm:TotStkInTradAmt>152600</ITRForm:TotStkInTradAmt>
+				<ITRForm:CashBalAmt>80870</ITRForm:CashBalAmt>
+			</ITRForm:NoBooksOfAccBS>
+		</ITRForm:ScheduleBPForITR4S>
+		
+		
+		
+		
+	</ITR4SFORM:ITR4S>
+</ITRETURN:ITR>
+
+------=_Part_0_30138521.1403332116328--
+Jun 21, 2014 11:58:37 AM com.tcs.efiling.itr.config.Logger error
+SEVERE: Error in sendRequest: 
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.tcs.efiling.itr.main.WebServiceUtil.sendSoapMessage(WebServiceUtil.java:93)
+	at com.tcs.efiling.itr.main.WebServiceUtil.sendRequest(WebServiceUtil.java:104)
+	at com.tcs.efiling.itr.main.WebServiceUtil.call(WebServiceUtil.java:230)
+	at com.tcs.efiling.itr.main.WebServiceUtil.call(WebServiceUtil.java:38)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1259)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	... 9 more
+
+CAUSE:
+
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.tcs.efiling.itr.main.WebServiceUtil.sendSoapMessage(WebServiceUtil.java:93)
+	at com.tcs.efiling.itr.main.WebServiceUtil.sendRequest(WebServiceUtil.java:104)
+	at com.tcs.efiling.itr.main.WebServiceUtil.call(WebServiceUtil.java:230)
+	at com.tcs.efiling.itr.main.WebServiceUtil.call(WebServiceUtil.java:38)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1259)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Jun 21, 2014 11:58:37 AM com.tcs.efiling.itr.config.Logger info
+INFO: Thread call ends : time taken: 828
+Jun 21, 2014 11:59:02 AM com.tcs.efiling.itr.config.Logger info
+INFO: cancel caled
+Jun 21, 2014 12:00:31 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to start generateXml(): 16
+Jun 21, 2014 12:00:32 PM com.tcs.efiling.itr.config.Logger info
+INFO: outputfilePathD:\Advocate\I.Tax\Ajay spots-Sunil (S-29)\AY-14-15\sunil-ajay.draft,generateXmlFlag: false
+Jun 21, 2014 12:00:32 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to generate: 375
+Jun 21, 2014 12:00:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: importXmlDialog starts
+Jun 21, 2014 12:00:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: saveIfNot starts: type: 4
+Jun 21, 2014 12:00:43 PM com.tcs.efiling.itr.config.Logger info
+INFO: saveIfNot after shows: 
+Jun 21, 2014 12:00:43 PM com.tcs.efiling.itr.config.Logger info
+INFO: importXmlDialog ends
+Jun 21, 2014 12:00:49 PM com.tcs.efiling.itr.config.Logger info
+INFO: saveITR starts saving file
+Jun 21, 2014 12:00:49 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to start generateXml(): 16
+Jun 21, 2014 12:00:49 PM com.tcs.efiling.itr.config.Logger info
+INFO: outputfilePathD:\Advocate\I.Tax\Ajay spots-Sunil (S-29)\AY-14-15\sunil-ajay.draft,generateXmlFlag: false
+Jun 21, 2014 12:00:49 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to generate: 156
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger info
+INFO: show validation
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in validateAll(): 0
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: requestId
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.creationInfo.xmlCreationDate
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: totalPage
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: returnType
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: customReturnType
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: 
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.currentPage
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.itr4sTaxComputationOnline.surchargeOnTaxPayable
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_IT
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].chosenCheckBox
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_scheduleFA.detailsOfTrustOutIndiaTrustee[0].chosenCheckBox
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleBPForITR4S.incChargeableUnderBus
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 12:01:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.taxPaid.taxesPaid.tcs
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totDon100Percent
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totEligibleDon100Percent
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_TDS1
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger info
+INFO: submit itr starts
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger info
+INFO: Call() ends time taken: 125  error count :0
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to start generateXml(): 0
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger info
+INFO: outputfilePathC:\DOCUME~1\sss\LOCALS~1\Temp\ITR-7956164329197045371237301589.xml,generateXmlFlag: true
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger info
+INFO: done with schema error; 0
+Jun 21, 2014 12:01:02 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to generate: 797
+Jun 21, 2014 12:01:03 PM com.tcs.efiling.itr.config.Logger info
+INFO: initialize submit itr starts
+Jun 21, 2014 12:01:03 PM com.tcs.efiling.itr.config.Logger error
+SEVERE: initUsbTokens error
+java.lang.Exception: The KeyStore is empty
+	at com.tcs.efiling.itr.config.UsbTokenUtil.getUsbTokenData(UsbTokenUtil.java:56)
+	at com.tcs.efiling.itr.main.SubmitItrDialogController.initUsbTokens(SubmitItrDialogController.java:147)
+	at com.tcs.efiling.itr.main.SubmitItrDialogController.initialize(SubmitItrDialogController.java:138)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2152)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2028)
+	at com.tcs.efiling.itr.main.NewITRDialog.<init>(NewITRDialog.java:36)
+	at com.tcs.efiling.itr.main.MainController.OpenSubmitDialog(MainController.java:925)
+	at com.tcs.efiling.itr.main.ITRUtil$3.run(ITRUtil.java:835)
+	at com.sun.javafx.application.PlatformImpl$4.run(PlatformImpl.java:173)
+	at com.sun.glass.ui.win.WinCommonDialogs._showFileChooser(Native Method)
+	at com.sun.glass.ui.win.WinCommonDialogs.showFileChooser_impl(WinCommonDialogs.java:37)
+	at com.sun.glass.ui.win.WinApplication.staticCommonDialogs_showFileChooser(WinApplication.java:179)
+	at com.sun.glass.ui.CommonDialogs.showFileChooser(CommonDialogs.java:116)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.showFileChooser(QuantumToolkit.java:1480)
+	at javafx.stage.FileChooser.showDialog(FileChooser.java:285)
+	at javafx.stage.FileChooser.showOpenDialog(FileChooser.java:234)
+	at com.tcs.efiling.itr.main.MainController.openFileDialog(MainController.java:1098)
+	at com.tcs.efiling.itr.main.SaveITRDialogController.cancel(SaveITRDialogController.java:72)
+	at com.tcs.efiling.itr.main.SaveITRDialogController.saveITR(SaveITRDialogController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1437)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:69)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:217)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:170)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:38)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:37)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:92)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:35)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:92)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:53)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:28)
+	at javafx.event.Event.fireEvent(Event.java:171)
+	at javafx.scene.Node.fireEvent(Node.java:6863)
+	at javafx.scene.control.Button.fire(Button.java:179)
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:193)
+	at com.sun.javafx.scene.control.skin.SkinBase$4.handle(SkinBase.java:336)
+	at com.sun.javafx.scene.control.skin.SkinBase$4.handle(SkinBase.java:329)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:64)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:217)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:170)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:38)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:37)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:92)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:35)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:92)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:35)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:92)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:53)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:33)
+	at javafx.event.Event.fireEvent(Event.java:171)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3324)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3164)
+	at javafx.scene.Scene$MouseHandler.access$1900(Scene.java:3119)
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1559)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2261)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:228)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:528)
+	at com.sun.glass.ui.View.notifyMouse(View.java:922)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.access$100(WinApplication.java:29)
+	at com.sun.glass.ui.win.WinApplication$3$1.run(WinApplication.java:73)
+	at java.lang.Thread.run(Unknown Source)
+
+Jun 21, 2014 12:01:03 PM com.tcs.efiling.itr.config.Logger info
+INFO: dscMandatory starts::ITR-4S
+Jun 21, 2014 12:01:03 PM com.tcs.efiling.itr.config.Logger info
+INFO: dscMandatory ends
+Jun 21, 2014 12:01:50 PM com.tcs.efiling.itr.config.Logger info
+INFO: validateDSCKey ends with flag: true
+Jun 21, 2014 12:01:50 PM com.tcs.efiling.itr.config.Logger info
+INFO: hash is : jlD6N/gDqS7NgqRf1t9WJA==
+Jun 21, 2014 12:01:50 PM com.tcs.efiling.itr.config.Logger info
+INFO: Thread call starts
+Jun 21, 2014 12:01:50 PM com.tcs.efiling.itr.config.Logger info
+INFO: sendRequest starts
+Jun 21, 2014 12:01:50 PM com.tcs.efiling.itr.config.Logger info
+INFO: soapMessage ------=_Part_2_27635511.1403332310171
+Content-Type: text/xml; charset=utf-8
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><SubmitITRRequest><UserId>APIPK0101M</UserId><Password>atul@007</Password><Dob>15/07/1970</Dob><ITR>ITR-4S</ITR><AsstYear>2014-15</AsstYear><Version>1.0</Version><Pan>APIPK0101M</Pan><DscFlag>N</DscFlag><Section44AB>N</Section44AB><VerifPan>APIPK0101M</VerifPan><JarHash>jlD6N/gDqS7NgqRf1t9WJA==</JarHash></SubmitITRRequest></SOAP-ENV:Body></SOAP-ENV:Envelope>
+------=_Part_2_27635511.1403332310171
+Content-Type: application/octet-stream
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Sample XML file generated by XMLSpy v2013 rel. 2 (http://www.altova.com)--><ITRETURN:ITR xmlns:ITRETURN="http://incometaxindiaefiling.gov.in/main" xmlns:ITR4SFORM="http://incometaxindiaefiling.gov.in/ITR4S" xmlns:ITRForm="http://incometaxindiaefiling.gov.in/master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://incometaxindiaefiling.gov.in/main ITRMain13.xsd">
+	<ITR4SFORM:ITR4S>
+		<ITRForm:CreationInfo>
+            <ITRForm:SWVersionNo>R1</ITRForm:SWVersionNo>
+            <ITRForm:SWCreatedBy>DIT-EFILING-JAVA</ITRForm:SWCreatedBy>
+            <ITRForm:XMLCreatedBy>DIT-EFILING-JAVA</ITRForm:XMLCreatedBy>
+            <ITRForm:XMLCreationDate>2014-06-21</ITRForm:XMLCreationDate>
+            <ITRForm:IntermediaryCity>Delhi</ITRForm:IntermediaryCity>
+        </ITRForm:CreationInfo>
+        <ITRForm:Form_ITR4S>
+            <ITRForm:FormName>ITR-4S</ITRForm:FormName>
+            <ITRForm:Description>For Indl having Income From Presemptive Business</ITRForm:Description>
+            <ITRForm:AssessmentYear>2014</ITRForm:AssessmentYear>
+            <ITRForm:SchemaVer>Ver1.0</ITRForm:SchemaVer>
+            <ITRForm:FormVer>Ver1.0</ITRForm:FormVer>
+        </ITRForm:Form_ITR4S>
+		<ITRForm:PersonalInfo>
+			<ITRForm:AssesseeName>
+				<ITRForm:FirstName>SUNIL</ITRForm:FirstName>
+				
+				<ITRForm:SurNameOrOrgName>KUMAR</ITRForm:SurNameOrOrgName>
+				
+			</ITRForm:AssesseeName>
+			<ITRForm:PAN>APIPK0101M</ITRForm:PAN>
+			<ITRForm:Address>
+				<ITRForm:ResidenceNo>23</ITRForm:ResidenceNo>
+				
+				<ITRForm:RoadOrStreet>GAUSHALA ROAD</ITRForm:RoadOrStreet>
+				<ITRForm:LocalityOrArea>NEW MANDI</ITRForm:LocalityOrArea>
+				<ITRForm:CityOrTownOrDistrict>MUZAFFARNAGAR</ITRForm:CityOrTownOrDistrict>
+				<ITRForm:StateCode>31</ITRForm:StateCode>
+				<ITRForm:CountryCode>91</ITRForm:CountryCode>
+				<ITRForm:PinCode>251001</ITRForm:PinCode>
+				
+				<ITRForm:MobileNo>9412213862</ITRForm:MobileNo>
+				
+				<ITRForm:EmailAddress>advocateatulag@gmail.com</ITRForm:EmailAddress>
+				
+			</ITRForm:Address>
+			<ITRForm:DOB>1970-07-15</ITRForm:DOB>
+			<ITRForm:EmployerCategory>NA</ITRForm:EmployerCategory>
+			<ITRForm:Gender>M</ITRForm:Gender>
+			<ITRForm:Status>I</ITRForm:Status>
+		</ITRForm:PersonalInfo>
+		<ITRForm:FilingStatus>
+			<ITRForm:DesigOfficerWardorCircle>2(3)/MZR</ITRForm:DesigOfficerWardorCircle>
+			<ITRForm:ReturnFileSec>11</ITRForm:ReturnFileSec>
+			
+			
+			
+			<ITRForm:ReturnType>O</ITRForm:ReturnType>
+			
+			
+			<ITRForm:ResidentialStatus>RES</ITRForm:ResidentialStatus>
+			<ITRForm:TaxStatus>NT</ITRForm:TaxStatus>
+			
+			
+			<ITRForm:PortugeseCC5A>N</ITRForm:PortugeseCC5A>
+			
+			
+		</ITRForm:FilingStatus>
+		<ITRForm:ITR4S_IncomeDeductions>
+			<ITRForm:IncomeFromBusinessProf>229690</ITRForm:IncomeFromBusinessProf>
+			<ITRForm:IncomeFromSal>0</ITRForm:IncomeFromSal>
+			
+			<ITRForm:TotalIncomeOfHP>0</ITRForm:TotalIncomeOfHP>
+			<ITRForm:IncomeOthSrc>36000</ITRForm:IncomeOthSrc>
+			<ITRForm:GrossTotIncome>265690</ITRForm:GrossTotIncome>
+			<ITRForm:UsrDeductUndChapVIA>
+				<ITRForm:Section80C>92082</ITRForm:Section80C>
+				<ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+				<ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+				<ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+				<ITRForm:Section80D>0</ITRForm:Section80D>
+				<ITRForm:Section80DD>0</ITRForm:Section80DD>
+				<ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+				<ITRForm:Section80E>0</ITRForm:Section80E>
+				<ITRForm:Section80EE>0</ITRForm:Section80EE>
+				<ITRForm:Section80G>0</ITRForm:Section80G>
+				<ITRForm:Section80GG>0</ITRForm:Section80GG>
+				
+				<ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+				<ITRForm:Section80U>0</ITRForm:Section80U>
+				<ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+				<ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+				
+				
+				
+				
+				
+				
+				<ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+				<ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+				<ITRForm:TotalChapVIADeductions>92082</ITRForm:TotalChapVIADeductions>
+			</ITRForm:UsrDeductUndChapVIA>
+			<ITRForm:DeductUndChapVIA>
+				<ITRForm:Section80C>92082</ITRForm:Section80C>
+				<ITRForm:Section80CCC>0</ITRForm:Section80CCC>
+				<ITRForm:Section80CCDEmployeeOrSE>0</ITRForm:Section80CCDEmployeeOrSE>
+				<ITRForm:Section80CCDEmployer>0</ITRForm:Section80CCDEmployer>
+				<ITRForm:Section80D>0</ITRForm:Section80D>
+				<ITRForm:Section80DD>0</ITRForm:Section80DD>
+				<ITRForm:Section80DDB>0</ITRForm:Section80DDB>
+				<ITRForm:Section80E>0</ITRForm:Section80E>
+				<ITRForm:Section80EE>0</ITRForm:Section80EE>
+				<ITRForm:Section80G>0</ITRForm:Section80G>
+				<ITRForm:Section80GG>0</ITRForm:Section80GG>
+				
+				<ITRForm:Section80GGC>0</ITRForm:Section80GGC>
+				<ITRForm:Section80U>0</ITRForm:Section80U>
+				<ITRForm:Section80RRB>0</ITRForm:Section80RRB>
+				<ITRForm:Section80QQB>0</ITRForm:Section80QQB>
+				
+				
+				
+				
+				
+				
+				<ITRForm:Section80CCG>0</ITRForm:Section80CCG>
+				<ITRForm:Section80TTA>0</ITRForm:Section80TTA>
+				<ITRForm:TotalChapVIADeductions>92082</ITRForm:TotalChapVIADeductions>
+			</ITRForm:DeductUndChapVIA>
+			<ITRForm:TotalIncome>173610</ITRForm:TotalIncome>
+		</ITRForm:ITR4S_IncomeDeductions>
+		<ITRForm:ITR4S_TaxComputation>
+			<ITRForm:TotalTaxPayable>0</ITRForm:TotalTaxPayable>
+			<ITRForm:Rebate87A>0</ITRForm:Rebate87A>
+			<ITRForm:TaxPayableOnRebate>0</ITRForm:TaxPayableOnRebate>
+			<ITRForm:SurchargeOnAboveCrore>0</ITRForm:SurchargeOnAboveCrore>
+			<ITRForm:EducationCess>0</ITRForm:EducationCess>
+			<ITRForm:GrossTaxLiability>0</ITRForm:GrossTaxLiability>
+			<ITRForm:Section89>0</ITRForm:Section89>
+			<ITRForm:NetTaxLiability>0</ITRForm:NetTaxLiability>
+			<ITRForm:TotalIntrstPay>0</ITRForm:TotalIntrstPay>
+			<ITRForm:IntrstPay>
+				<ITRForm:IntrstPayUs234A>0</ITRForm:IntrstPayUs234A>
+				<ITRForm:IntrstPayUs234B>0</ITRForm:IntrstPayUs234B>
+				<ITRForm:IntrstPayUs234C>0</ITRForm:IntrstPayUs234C>
+				
+			</ITRForm:IntrstPay>
+			<ITRForm:TotTaxPlusIntrstPay>0</ITRForm:TotTaxPlusIntrstPay>
+		</ITRForm:ITR4S_TaxComputation>
+		<ITRForm:TaxPaid>
+			<ITRForm:TaxesPaid>
+				<ITRForm:AdvanceTax>0</ITRForm:AdvanceTax>
+				<ITRForm:TDS>0</ITRForm:TDS>
+				<ITRForm:TCS>0</ITRForm:TCS>
+				<ITRForm:SelfAssessmentTax>0</ITRForm:SelfAssessmentTax>
+				<ITRForm:TotalTaxesPaid>0</ITRForm:TotalTaxesPaid>
+			</ITRForm:TaxesPaid>
+			<ITRForm:BalTaxPayable>0</ITRForm:BalTaxPayable>
+		</ITRForm:TaxPaid>
+		<ITRForm:Refund>
+			<ITRForm:RefundDue>0</ITRForm:RefundDue>
+			<ITRForm:BankAccountNumber>00000000001</ITRForm:BankAccountNumber>
+			<ITRForm:DepositToBankAccount>
+				<ITRForm:IFSCCode>PUNB0000001</ITRForm:IFSCCode>
+				<ITRForm:BankAccountType>SAV</ITRForm:BankAccountType>
+			</ITRForm:DepositToBankAccount>
+		</ITRForm:Refund>
+		
+		
+		<ITRForm:Verification>
+			<ITRForm:Declaration>
+				<ITRForm:AssesseeVerName>SUNIL KUMAR</ITRForm:AssesseeVerName>
+				<ITRForm:FatherName>LATE SH.RAJPAL SINGH</ITRForm:FatherName>
+				<ITRForm:AssesseeVerPAN>APIPK0101M</ITRForm:AssesseeVerPAN>
+			</ITRForm:Declaration>
+			<ITRForm:Place>MUZAFFARNAGAR</ITRForm:Place>
+			<ITRForm:Date>2014-06-21</ITRForm:Date>
+		</ITRForm:Verification>
+		
+		<ITRForm:NatOfBus>
+			<ITRForm:Business>
+				<ITRForm:Code>0202</ITRForm:Code>
+				<ITRForm:Trade>
+					<ITRForm:TradeName>AJAY SPORTS</ITRForm:TradeName>
+					
+					
+				</ITRForm:Trade>
+			</ITRForm:Business>
+			
+			
+		</ITRForm:NatOfBus>
+		
+		
+		<ITRForm:ScheduleBPForITR4S>
+			<ITRForm:PersumptiveInc44AD>
+				<ITRForm:GrsTrnOverOrReceipt>2296900</ITRForm:GrsTrnOverOrReceipt>
+				<ITRForm:TotPersumptiveInc44AD>229690</ITRForm:TotPersumptiveInc44AD>
+			</ITRForm:PersumptiveInc44AD>
+			<ITRForm:PersumptiveInc44AE>
+				<ITRForm:PersumptiveIncHeavyVehicle>0</ITRForm:PersumptiveIncHeavyVehicle>
+				<ITRForm:PersumptiveIncOtherVehicle>0</ITRForm:PersumptiveIncOtherVehicle>
+				<ITRForm:TotPersumInc44AE>0</ITRForm:TotPersumInc44AE>
+			</ITRForm:PersumptiveInc44AE>
+			<ITRForm:IncChargeableUnderBus>229690</ITRForm:IncChargeableUnderBus>
+			<ITRForm:NoBooksOfAccBS>
+				<ITRForm:TotSundryDbtAmt>18700</ITRForm:TotSundryDbtAmt>
+				<ITRForm:TotSundryCrdAmt>0</ITRForm:TotSundryCrdAmt>
+				<ITRForm:TotStkInTradAmt>152600</ITRForm:TotStkInTradAmt>
+				<ITRForm:CashBalAmt>80870</ITRForm:CashBalAmt>
+			</ITRForm:NoBooksOfAccBS>
+		</ITRForm:ScheduleBPForITR4S>
+		
+		
+		
+		
+	</ITR4SFORM:ITR4S>
+</ITRETURN:ITR>
+
+------=_Part_2_27635511.1403332310171--
+Jun 21, 2014 12:01:50 PM com.tcs.efiling.itr.config.Logger error
+SEVERE: Error in sendRequest: 
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.tcs.efiling.itr.main.WebServiceUtil.sendSoapMessage(WebServiceUtil.java:93)
+	at com.tcs.efiling.itr.main.WebServiceUtil.sendRequest(WebServiceUtil.java:104)
+	at com.tcs.efiling.itr.main.WebServiceUtil.call(WebServiceUtil.java:230)
+	at com.tcs.efiling.itr.main.WebServiceUtil.call(WebServiceUtil.java:38)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1259)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	... 9 more
+
+CAUSE:
+
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Unable to read response: null
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(Unknown Source)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(Unknown Source)
+	at com.tcs.efiling.itr.main.WebServiceUtil.sendSoapMessage(WebServiceUtil.java:93)
+	at com.tcs.efiling.itr.main.WebServiceUtil.sendRequest(WebServiceUtil.java:104)
+	at com.tcs.efiling.itr.main.WebServiceUtil.call(WebServiceUtil.java:230)
+	at com.tcs.efiling.itr.main.WebServiceUtil.call(WebServiceUtil.java:38)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1259)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Jun 21, 2014 12:01:50 PM com.tcs.efiling.itr.config.Logger info
+INFO: Thread call ends : time taken: 469
+Jun 21, 2014 12:02:07 PM com.tcs.efiling.itr.config.Logger info
+INFO: cancel caled
+Jun 21, 2014 12:02:37 PM com.tcs.efiling.itr.config.Logger info
+INFO: init starts
+Jun 21, 2014 12:02:39 PM com.tcs.efiling.itr.config.Logger info
+INFO: init ends in 2390 ms.
+Jun 21, 2014 12:02:40 PM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method starts
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: openNewITR starts with values: asstYear:2014-15,itr:ITR-4S,ver:1.0,importXml:null
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: Opening ITR: ITR-4S For AsstYear: 2014-15
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: generateCopy starts
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: initialize starts
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: initialize ends
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation starts
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: webViewActWidth in: 808.96,vboxActWidth:  174.08,mainController.windowWidth: 1024.0
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: hide validation
+Jun 21, 2014 12:02:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation ends
+Jun 21, 2014 12:02:43 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in openNewITR(): 1172
+Jun 21, 2014 12:02:44 PM com.tcs.efiling.itr.config.Logger info
+INFO: calculateITR starts
+Jun 21, 2014 12:02:44 PM com.tcs.efiling.itr.config.Logger info
+INFO: mainController.windowWidth new : 1024.0
+Jun 21, 2014 12:02:44 PM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method ends. Time taken: 4922
+Jun 21, 2014 12:02:49 PM com.tcs.efiling.itr.config.Logger info
+INFO: javascript: to run: 
+Jun 21, 2014 12:02:49 PM com.tcs.efiling.itr.config.Logger info
+INFO: time taken in changed : 922
+Sep 19, 2014 11:10:13 AM com.tcs.efiling.itr.config.Logger info
+INFO: init starts
+Sep 19, 2014 11:10:15 AM com.tcs.efiling.itr.config.Logger info
+INFO: init ends in 1703 ms.
+Sep 19, 2014 11:10:15 AM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method starts
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: openNewITR starts with values: asstYear:2014-15,itr:ITR-4S,ver:1.0,importXml:null
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: Opening ITR: ITR-4S For AsstYear: 2014-15
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: generateCopy starts
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: initialize starts
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: initialize ends
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation starts
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: webViewActWidth in: 808.96,vboxActWidth:  174.08,mainController.windowWidth: 1024.0
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: hide validation
+Sep 19, 2014 11:10:20 AM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation ends
+Sep 19, 2014 11:10:21 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in openNewITR(): 1187
+Sep 19, 2014 11:10:22 AM com.tcs.efiling.itr.config.Logger info
+INFO: calculateITR starts
+Sep 19, 2014 11:10:22 AM com.tcs.efiling.itr.config.Logger info
+INFO: mainController.windowWidth new : 1024.0
+Sep 19, 2014 11:10:23 AM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method ends. Time taken: 7438
+Sep 19, 2014 11:10:28 AM com.tcs.efiling.itr.config.Logger info
+INFO: javascript: to run: 
+Sep 19, 2014 11:10:28 AM com.tcs.efiling.itr.config.Logger info
+INFO: time taken in changed : 1078

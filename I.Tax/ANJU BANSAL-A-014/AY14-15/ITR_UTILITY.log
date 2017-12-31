@@ -1,0 +1,252 @@
+Jun 27, 2014 11:56:07 AM com.tcs.efiling.itr.config.Logger info
+INFO: init starts
+Jun 27, 2014 11:56:09 AM com.tcs.efiling.itr.config.Logger info
+INFO: init ends in 1765 ms.
+Jun 27, 2014 11:56:09 AM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method starts
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: openNewITR starts with values: asstYear:2014-15,itr:ITR-4S,ver:1.0,importXml:null
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: Opening ITR: ITR-4S For AsstYear: 2014-15
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: generateCopy starts
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: initialize starts
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: initialize ends
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation starts
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: webViewActWidth in: 808.96,vboxActWidth:  174.08,mainController.windowWidth: 1024.0
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: hide validation
+Jun 27, 2014 11:56:14 AM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation ends
+Jun 27, 2014 11:56:15 AM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in openNewITR(): 1157
+Jun 27, 2014 11:56:16 AM com.tcs.efiling.itr.config.Logger info
+INFO: calculateITR starts
+Jun 27, 2014 11:56:16 AM com.tcs.efiling.itr.config.Logger info
+INFO: mainController.windowWidth new : 1024.0
+Jun 27, 2014 11:56:17 AM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method ends. Time taken: 7703
+Jun 27, 2014 11:56:22 AM com.tcs.efiling.itr.config.Logger info
+INFO: javascript: to run: 
+Jun 27, 2014 11:56:22 AM com.tcs.efiling.itr.config.Logger info
+INFO: time taken in changed : 890
+Jun 27, 2014 12:00:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleBPForITR4S.incChargeableUnderBus
+Jun 27, 2014 12:02:39 PM com.tcs.efiling.itr.config.Logger info
+INFO: itrEngine alert: WebEvent [source = javafx.scene.web.WebEngine@fb5afd, eventType = WEB_ALERT, data = Please enter Name in correct format]
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger info
+INFO: show validation
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in validateAll(): 0
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: requestId
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.creationInfo.xmlCreationDate
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: totalPage
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: returnType
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: customReturnType
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: 
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.currentPage
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.itr4sTaxComputationOnline.surchargeOnTaxPayable
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_IT
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_scheduleFA.detailsOfTrustOutIndiaTrustee[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleBPForITR4S.incChargeableUnderBus
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.taxPaid.taxesPaid.tcs
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totDon100Percent
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totEligibleDon100Percent
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_TDS1
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd
+Jun 27, 2014 12:03:54 PM com.tcs.efiling.itr.config.Logger info
+INFO: Call() ends time taken: 141  error count :1
+Jun 27, 2014 12:05:29 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 27, 2014 12:05:42 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 27, 2014 12:05:56 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger info
+INFO: show validation
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in validateAll(): 0
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: requestId
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.creationInfo.xmlCreationDate
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: totalPage
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: returnType
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: customReturnType
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: 
+Jun 27, 2014 12:06:01 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.currentPage
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.itr4sTaxComputationOnline.surchargeOnTaxPayable
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.us44aeHeavy[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_IT
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_scheduleFA.detailsOfTrustOutIndiaTrustee[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.natOfBus.business[0].trade.tradeName
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleBPForITR4S.incChargeableUnderBus
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleTCS.tcs[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleTCS.tcs[0].amtClaimedBySpouse
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.scheduleIT.taxPayment[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.taxPaid.taxesPaid.tcs
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totDon100Percent
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100Percent.totEligibleDon100Percent
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_TDS1
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr4S.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd
+Jun 27, 2014 12:06:02 PM com.tcs.efiling.itr.config.Logger info
+INFO: Call() ends time taken: 156  error count :0
+Jun 27, 2014 12:06:41 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to start generateXml(): 0
+Jun 27, 2014 12:06:42 PM com.tcs.efiling.itr.config.Logger info
+INFO: outputfilePathD:\Advocate\I.Tax\Anju bansal-A-014\AY14-15\ANJU.xml,generateXmlFlag: true
+Jun 27, 2014 12:06:48 PM com.tcs.efiling.itr.config.Logger info
+INFO: done with schema error; 0
+Jun 27, 2014 12:06:49 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to generate: 7828

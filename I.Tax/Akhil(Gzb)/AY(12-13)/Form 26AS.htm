@@ -1,0 +1,1441 @@
+
+<HTML>
+
+<HEAD>
+
+<link rel = "stylesheet" type="text/css" href="/TINPhase2/css/common/Tin1.css">
+<TITLE>Form 26AS</TITLE>
+
+</HEAD>
+
+<BODY>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/Static/css/nsdlui.css">
+</head>
+
+<body>
+<div id="mainWrapper">
+<div id="headerui">
+	<div class="top">
+	   <div class="tagline">
+	      <a href="#">Tax Information Network</a><br><span class="sub-tagline">of Income Tax Department</span>
+	   </div>
+	</div>
+</div>
+<div style="clear:both;" ></div>
+<div id="containerui">
+
+
+
+<div width="100%" ui="menu">
+	
+
+
+
+
+<HTML>
+<HEAD>
+<TITLE>Welcome</TITLE>
+<base href="https://onlineservices.tin.nsdl.com/TIN/JSP/common/layoutForm16.jsp">
+<style>
+
+/* CoolMenus 4 - default styles - do not edit */
+/* CoolMenus 4 - default styles - end */
+
+/*Style for the background-bar*/
+.clBar{ width:5; height:7; background-color:#d1d1d1; layer-background-color:#d1d1d1; visibility:hidden}
+
+/*Styles for level 0*/
+.clLevel0,.clLevel0over{position:absolute;padding:2px; font-family:tahoma,arial,helvetica; font-size:11px;font-weight:bold }
+.clLevel0{background-color:#d1d1d1; layer-background-color:#d1d1d1; color:black;}
+.clLevel0over{background-color:#d1d1d1; layer-background-color:#d1d1d1; color:black; cursor:pointer; cursor:hand; }
+.clLevel0border{position:absolute; visibility:hidden; background-color:#d1d1d1; layer-background-color:#d1d1d1}
+
+/*Styles for level 1*/
+.clLevel1, .clLevel1over{position:absolute; padding:2px; font-family:tahoma, arial,helvetica; font-size:11px;font-weight:bold}
+.clLevel1{background-color:#d1d1d1; layer-background-color:#d1d1d1; color:black;}
+.clLevel1over{background-color:white; layer-background-color:#990000; color:black; cursor:pointer; cursor:hand; }
+.clLevel1border{position:absolute; visibility:hidden; background-color:#990000; layer-background-color:black}
+
+/*Styles for level 2*/
+.clLevel2, .clLevel2over{position:absolute; padding:2px; font-family:tahoma,arial,helvetica; font-size:10px;}
+.clLevel2{background-color:#d1d1d1; layer-background-color:#d1d1d1; color:black;}
+.clLevel2over{background-color:white; layer-background-color:#990000; color:black; cursor:pointer; cursor:hand; }
+.clLevel2border{position:absolute; visibility:hidden; background-color:#990000; layer-background-color:black}
+</style>
+<script language="JavaScript1.2" src="/TINPhase2/jsFiles/coolmenus4.js">
+
+</script>
+
+</HEAD>
+
+<BODY link="white" alink="white" vlink="white" leftMargin="0" topMargin="0" MARGINHEIGHT="0" MARGINWIDTH="0">
+
+
+
+
+
+<!-- <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+<TBODY>
+<TR>
+<TD height="21" bgcolor="#d1d1d1" width="100%" align="left" class="H6">User Group:PAN
+</TD>
+<TD height="21" bgcolor="#d1d1d1" width="100%"
+align="left" class="H6">User:B999012&nbsp;&nbsp;</TD>
+</TR>
+</TBODY>
+</TABLE>
+<TABLE border="0" width=100% cellspacing="0" >
+ -->
+<script>
+
+
+
+//Menu object creation
+oCMenu=new makeCM("oCMenu") //Making the menu object. Argument: menuname
+
+oCMenu.frames = 0
+
+//Menu properties
+oCMenu.pxBetween=-17
+oCMenu.fromLeft=20
+oCMenu.fromTop=125
+oCMenu.rows=1
+oCMenu.menuPlacement="center"
+
+oCMenu.offlineRoot=""
+oCMenu.onlineRoot="/TIN"
+oCMenu.resizeCheck=1
+oCMenu.wait=1000
+oCMenu.fillImg="cm_fill.gif"
+oCMenu.zIndex=0
+
+//Background bar properties
+oCMenu.useBar=1
+oCMenu.barWidth=960
+oCMenu.barHeight="menu"
+oCMenu.barClass="clBar"
+oCMenu.barX=0
+oCMenu.barY=95
+oCMenu.barBorderX=0
+oCMenu.barBorderY=0
+oCMenu.barBorderClass=""
+
+//Level properties - ALL properties have to be spesified in level 0
+oCMenu.level[0]=new cm_makeLevel() //Add this for each new level
+oCMenu.level[0].width=90
+oCMenu.level[0].height=30
+oCMenu.level[0].regClass="clLevel0"
+oCMenu.level[0].overClass="clLevel0over"
+oCMenu.level[0].borderX=0
+oCMenu.level[0].borderY=0
+oCMenu.level[0].borderClass="clLevel0border"
+oCMenu.level[0].offsetX=0
+oCMenu.level[0].offsetY=0
+oCMenu.level[0].rows=0
+oCMenu.level[0].arrow=0
+oCMenu.level[0].arrowWidth=0
+oCMenu.level[0].arrowHeight=0
+oCMenu.level[0].align="bottom"
+//Property added ---- Doesn't apply to the top level. This gives you a border around all items.
+oCMenu.level[0].roundBorder=1
+
+//EXAMPLE SUB LEVEL[1] PROPERTIES - You have to specify the properties you want different from LEVEL[0] - If you want all items to look the same just remove this
+oCMenu.level[1]=new cm_makeLevel() //Add this for each new level (adding one to the number)
+oCMenu.level[1].width=150
+oCMenu.level[1].height=30
+oCMenu.level[1].regClass="clLevel1"
+oCMenu.level[1].overClass="clLevel1over"
+oCMenu.level[1].borderX=1
+oCMenu.level[1].borderY=1
+oCMenu.level[1].align="right"
+oCMenu.level[1].offsetX=-(oCMenu.level[0].width-2)/2+20
+oCMenu.level[1].offsetY=0
+oCMenu.level[1].borderClass="clLevel1border"
+
+
+//EXAMPLE SUB LEVEL[2] PROPERTIES - You have to specify the properties you want different from LEVEL[1] OR LEVEL[0] - If you want all items to look the same just remove this
+oCMenu.level[2]=new cm_makeLevel() //Add this for each new level (adding one to the number)
+oCMenu.level[2].width=150
+oCMenu.level[2].height=20
+oCMenu.level[2].offsetX=0
+oCMenu.level[2].offsetY=0
+oCMenu.level[2].regClass="clLevel2"
+
+oCMenu.level[2].overClass="clLevel2over"
+oCMenu.level[2].borderClass="clLevel2border"
+
+/******************************************
+Menu item creation:
+Menu.makeMenu(name, parent_name, text, link, target, width, height, regImage, overImage, regClass, overClass , align, rows, nolink, onclick, onmouseover, onmouseout)
+**************/
+oCMenu.makeMenu('top0','','Form<br>26AS (Tax Statement)','','','800/(6+1)');oCMenu.makeMenu('sub00','top0','&nbsp;Form 26AS (Tax Statement)','/ViewForm16.do?ID=-44063096&getName=Form26AS(TaxStatement)','','150');oCMenu.makeMenu('top1','','Add/Edit<br>e-mail ID/ Update contact details','/editemailid.do?ID=-44063096&getName=Add/Edit e-mail ID/ Update contact details','','800/(6+1)','','','','','','','2');oCMenu.makeMenu('top2','','Feedback<br>','/feedbackform.do?ID=-44063096&getName=Feedback','','800/(6+1)','','','','','','','2');oCMenu.makeMenu('top3','','Register to view<br>Form 26AS','/PanRegistration.do','','800/(6+1)','','','','','','','2');oCMenu.makeMenu('top4','','Back<br>to e-filing site','/redirectToBank.do?ID=-44063096&getName=Back to e-filing site','','800/(6+1)','','','','','','','2');oCMenu.makeMenu('top5','','TDS<br>Certificate','','','800/(6+1)');oCMenu.makeMenu('sub50','top5','&nbsp;Form 16A','/DeducteeForm16AReq.do?ID=-44063096&getName=Form 16A','','150');oCMenu.makeMenu('sub51','top5','&nbsp;Form 16','/DeducteeSalForm16Req.do?ID=-44063096&getName=Form 16','','150');oCMenu.makeMenu('top6','','&nbsp; Log-Off','/Log-Off.do?ID=-44063096','','800/(6+1)');
+//Leave this line - it constructs the menu
+oCMenu.construct()
+</script>
+
+ 
+<TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+<TBODY>
+<TR>
+<TD height="10" bgcolor="#990000" width="100%" align="left" class="H6">
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+
+
+</BODY>
+</HTML>
+
+
+</div>
+<div width="100%" ui="body">
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<LINK href="/TINPhase2/css/common/TIN1.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<META name="GENERATOR" content="IBM WebSphere Studio">
+<META http-equiv="Content-Style-Type" content="text/css">
+
+<TITLE>Annual Tax Statement (Form 26AS)</TITLE>
+
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+
+
+<script type="text/javascript">
+
+	function showContent(vThis) {
+	
+			vSibling=document.getElementById('personalDetails');
+			
+		if(vSibling.style.display == "none") {
+				
+				vThis.src="/TINPhase2/images/booking/collapse.gif";
+				vThis.alt = "Hide Details";
+				vSibling.style.display = '';
+				
+		} else {
+	
+				vSibling.style.display = 'none';
+				vThis.src="/TINPhase2/images/booking/expand.gif";
+				vThis.alt = "Personal Details";
+				
+		}
+		
+		return;
+	}
+
+	function getDetails() {
+	
+			var varRandNum= -44063096;
+	        document.forms[0].action="/TIN/Onsubmitassessmentyearaction.do?ID="+varRandNum;
+	        document.forms[0].submit();	
+	}
+
+	function callWebDownload(){
+	
+			var varRandNum= -44063096;
+			document.forms[0].action="/TIN/Onsubmitassessmentyearaction.do?ID="+varRandNum+"&method=directDownloadCSV";
+			document.forms[0].submit();
+	}
+
+	function callDownloadPDF(){
+
+			var varRandNum= -44063096;
+			document.forms[0].action="/TIN/Onsubmitassessmentyearaction.do?ID="+varRandNum+"&method=directDownloadPDF";
+			document.forms[0].submit();
+	}
+
+</script>
+
+	
+
+<P><form name="Onsubmitassessmentyearform" method="post" action="/TIN/Onsubmitassessmentyearaction.do?ID=-44063096" onsubmit="return pan_valid();">
+
+			  
+
+			<table width=100%>
+		<tr class="link">
+			<td align="center">Details of transaction of Mutual fund, Shares and Bonds (as reported by AIR filer) from F.Y. 2009-10 onwards can be viewed in Form 26AS.</td>
+		</tr>
+	</table>
+
+
+	<table width=100%>
+		<tr class="sublabel" style="font-size: 12">
+			<td align="left" width="25%">Date:24-05-2012</td>
+			<A name="q5"></A>
+			<td width="45%" align="right" style="font-size: 16; font-weight: bold">
+			<center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form
+			No. 26AS</center>
+			</td>
+			<td align="right" width="20%">Assessment Year:
+			</td>
+			<td align="left" width="10%">
+				<SELECT name="assessyear">
+	
+	
+			<option value="2013-14">&nbsp;&nbsp;2013-14
+			</option>
+	
+			<option value="2012-13" selected="selected">&nbsp;&nbsp;2012-13
+			</option>
+	
+			<option value="2011-12">&nbsp;&nbsp;2011-12
+			</option>
+	
+			<option value="2010-11">&nbsp;&nbsp;2010-11
+			</option>
+	
+			<option value="2009-10">&nbsp;&nbsp;2009-10
+			</option>
+	
+			<option value="2008-09">&nbsp;&nbsp;2008-09
+			</option>
+	
+			<option value="2007-08">&nbsp;&nbsp;2007-08
+			</option>
+	
+			<option value="2006-07">&nbsp;&nbsp;2006-07
+			</option>
+	
+				</SELECT>
+			</td>
+			<td width="10%" align="right">
+				<input type="button" name="submitButton" value="Submit" onclick="getDetails();" class="submitbutton">
+			</td>
+		</tr>
+	</table>
+
+		
+<table align="center">
+	<tr class="sublabel">
+		<td>(See Section 203AA and second proviso to Section 206C(5) and Rule
+		31AB)</td>
+	</tr>
+</table>
+
+<table align="center">
+	<tr class="sublabel">
+		<td style="font-size: 16; font-weight: bold">Annual Tax Statement
+		under section 203AA</td>
+	</tr>
+</table>
+
+	<div style="margin-top: 5px">
+		<table border=0 cellSpacing=0 align=center width=94%>
+			<tr class="sublabel" style="font-size: 11; font-weight: bold; border: 1px">
+			<td valign="top" width=10>
+				<table>
+					<tr>
+					<td valign="top"><img src="/TINPhase2/images/booking/expand.gif" onclick="showContent(this);"/>
+					</td>
+					</tr>
+				</table>
+			</td>
+			<td valign="top">
+				<table border=1 width=90%>
+					<tr class="sublabel" style="font-size: 11; font-weight: bold">
+					<td valign="top" align="left">Permanent Account Number:&nbsp;ALXPG3889P
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Financial
+					Year:&nbsp;2011-12
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assessment
+					Year:&nbsp;2012-13					
+					</td>
+				</tr>
+				<tr class="sublabel" style="font-size: 11; font-weight: bold">
+					<td align="left" width="100%">Name of
+					Assessee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;GUPTA                                                                      
+					&nbsp;&nbsp;AKHIL                    &nbsp;&nbsp;                         </td>
+				</tr>
+				<TBODY id="personalDetails" style="display: none">
+
+					<tr class="sublabel" style="font-size: 11">
+						<td align=left width="944"><B>Address of Assessee*</B>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;G 235                              
+						
+					<tr class="sublabel" style="font-size: 11">
+						<td width="944">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PATEL NAGAR III                    </td>
+					</tr>
+						
+					<tr class="sublabel" style="font-size: 11">
+						<td width="944">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GHAZIABD                           </td>
+					</tr>
+						
+					<tr class="sublabel" style="font-size: 11">
+						<td width="944">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UTTAR PRADESH</td>
+					</tr>
+						
+					<tr class="sublabel" style="font-size: 11">
+						<td width="944">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;201001</td>
+					</tr>
+						
+				</TBODY>
+				</table>
+		  	</td>
+		</tr>
+	</table>
+
+			
+<table id="message" align="left">
+	<tr style="font-size: 8">
+		<td class="H7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*
+		If there are any changes in your name and/or address as mentioned
+		above, submit Request for new PAN card or/and changes or correction in
+		PAN <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data
+		with any TIN-FC or online (www.tin-nsdl.com).</td>
+	</tr>
+</table>
+
+	</div>
+	<br>
+	<br>
+
+	<table align="center" width="70%">
+
+		<tr class="normalText">
+			<td align="right"><A href="/TIN/ViewForm16.do?assessyear=2012-13&d_flag=1&getName=Form26AS(TaxStatement)#q1" class="link">PART A</A></td>
+			<td align="left">- &nbsp; Details of Tax Deducted at Source</td>
+			<td align="right"><A href="/TIN/ViewForm16.do?assessyear=2012-13&d_flag=1&getName=Form26AS(TaxStatement)#q2" class="link">PART B</A></td>
+			<td align="left">- &nbsp;Details of Tax Collected at Source</td>
+		</tr>
+		<tr class="normalText">
+			<td align="right"><A href="/TIN/ViewForm16.do?assessyear=2012-13&d_flag=1&getName=Form26AS(TaxStatement)#q3" class="link">PART C</A></td>
+			<td align="left">- &nbsp;Details of Tax Paid (Other than TDS or TCS)</td>
+			<td align="right"><A href="/TIN/ViewForm16.do?assessyear=2012-13&d_flag=1&getName=Form26AS(TaxStatement)#q6" class="link">REFUND</A></td>
+			<td align="left">- &nbsp;Details of Paid Refund</td>
+		</tr>
+	
+	
+	</table>
+
+	<br>
+	
+	<A name="q1"></A>
+
+		
+<table width="100%">
+	<tr class="sublabel">
+		<td width="85%"
+			style="font-size: 14; font-weight: bold; text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		PART A - Details of Tax Deducted At Source</td>
+		<td width="15%"
+			style="font-size: 12; font-weight: normal; text-align: right">(All
+		Amounts in INR)</td>
+	</tr>
+</table>
+		
+	
+
+	<div cellspacing="0" cellpadding="0">
+	<table id="parta" width="100%" border="1" cellspacing="0"
+		bordercolor="white">
+		
+			<thead>
+	<tr class="table" style="font-size: 11; font-weight: bold">
+		<td align="center" width="2%" id="fix">Sr.No.<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		(501)</td>
+		<td align="center" width="15%" id="fix">Name of the Deductor <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		(502)</td>
+		<td align="center" width="8%" id="fix">TAN of <br>
+		the <br>
+		Deductor <br>
+		<br>
+		<br>
+		(503)</td>
+		<td align="center" width="7%" id="fix">Section <br>
+		Under <br>
+		which <br>
+		deduction <br>
+		made** <br>
+		(504)</td>
+		<td align="center" width="7%" id="fix">Date of <br>
+		Payment/ <br>
+		Credit <br>
+		<br>
+		<br>
+		(505)</td>
+		<td align="center" width="9%" id="fix">Amount <br>
+		Paid/ <br>
+		Credited <br>
+		<br>
+		<br>
+		(506)</td>
+		<td align="center" width="9%" id="fix">Tax deducted <br>
+		(TDS+<br>
+		Surcharge +<br>
+		Education Cess) <br>
+		<br>
+		(507)</td>
+		<td align="center" width="9%" id="fix">TDS deposited <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		(508)</td>
+		<td align="center" width="8%" id="fix">Status of<br>
+		Booking<br>
+		(P/F/U)@<br>
+		<br>
+		</td>
+		<td align="center" width="8%" id="fix">Date of<br>
+		Booking<br>
+		<br>
+		<br>
+		<br>
+		</td>
+		<td align="center" width="7%" id="fix">Remarks (in<br>
+		case of<br>
+		reversals)*<br>
+		<br>
+		<br>
+		</td>
+	</tr>
+</thead>
+		
+		<tbody style="font-size: 11; font-weight: bold">
+
+	
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+
+				<td align="right">1</td>
+				<td align="left">&nbsp;TECH MAHINDRA LIMITED                                                      </td>
+				<td align="left">MUMM15369E</td>
+				<td align="left">192</td>
+				<td align="right">31-08-2011</td>
+
+				
+
+				<td align="right">36244.00</td>
+				<td align="right">359.00</td>
+				<td align="right">359.00</td>
+
+				
+
+				<td align="right">&nbsp;F</td>
+				<td align="right">&nbsp;15-10-2011</td>
+				<td align="center">&nbsp;</td>
+
+			</tr>
+
+	
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+
+				<td align="right">2</td>
+				<td align="left">&nbsp;TECH MAHINDRA LIMITED                                                      </td>
+				<td align="left">MUMM15369E</td>
+				<td align="left">192</td>
+				<td align="right">30-09-2011</td>
+
+				
+
+				<td align="right">31127.00</td>
+				<td align="right">1085.00</td>
+				<td align="right">1085.00</td>
+
+				
+
+				<td align="right">&nbsp;F</td>
+				<td align="right">&nbsp;15-10-2011</td>
+				<td align="center">&nbsp;</td>
+
+			</tr>
+
+	
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+
+				<td align="right">3</td>
+				<td align="left">&nbsp;TECH MAHINDRA LIMITED                                                      </td>
+				<td align="left">MUMM15369E</td>
+				<td align="left">192</td>
+				<td align="right">31-10-2011</td>
+
+				
+
+				<td align="right">36772.00</td>
+				<td align="right">1583.00</td>
+				<td align="right">1583.00</td>
+
+				
+
+				<td align="right">&nbsp;F</td>
+				<td align="right">&nbsp;13-01-2012</td>
+				<td align="center">&nbsp;</td>
+
+			</tr>
+
+	
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+
+				<td align="right">4</td>
+				<td align="left">&nbsp;TECH MAHINDRA LIMITED                                                      </td>
+				<td align="left">MUMM15369E</td>
+				<td align="left">192</td>
+				<td align="right">30-11-2011</td>
+
+				
+
+				<td align="right">27717.00</td>
+				<td align="right">444.00</td>
+				<td align="right">444.00</td>
+
+				
+
+				<td align="right">&nbsp;F</td>
+				<td align="right">&nbsp;13-01-2012</td>
+				<td align="center">&nbsp;</td>
+
+			</tr>
+
+	
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+
+				<td align="right">5</td>
+				<td align="left">&nbsp;TECH MAHINDRA LIMITED                                                      </td>
+				<td align="left">MUMM15369E</td>
+				<td align="left">192</td>
+				<td align="right">29-02-2012</td>
+
+				
+
+				<td align="right">28517.00</td>
+				<td align="right">135.00</td>
+				<td align="right">135.00</td>
+
+				
+
+				<td align="right">&nbsp;F</td>
+				<td align="right">&nbsp;11-05-2012</td>
+				<td align="center">&nbsp;</td>
+
+			</tr>
+
+	
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+
+				<td align="right">6</td>
+				<td align="left">&nbsp;TECH MAHINDRA LIMITED                                                      </td>
+				<td align="left">MUMM15369E</td>
+				<td align="left">192</td>
+				<td align="right">31-03-2012</td>
+
+				
+
+				<td align="right">26917.00</td>
+				<td align="right">330.00</td>
+				<td align="right">330.00</td>
+
+				
+
+				<td align="right">&nbsp;F</td>
+				<td align="right">&nbsp;11-05-2012</td>
+				<td align="center">&nbsp;</td>
+
+			</tr>
+
+	
+	
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+				<td>&nbsp;</td>
+				<td align=left>SubTotal</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td align=right style="font-size: 11; font-weight: bold">3936.00</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+				<td>&nbsp;</td>
+				<td align=left>Total</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td align=right style="font-size: 11; font-weight: bold">3936.00</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+
+	
+
+	</tbody>
+	</table>
+	</div>
+	<br>
+	
+
+		<table>
+			<tr>
+				<td align="left"><A href="/TIN/ViewForm16.do?assessyear=2012-13&d_flag=1&getName=Form26AS(TaxStatement)#q5" class="link"><I>Back to Top</I></A>
+				</td>
+			</tr>
+		</table>
+
+	<A name="q2"></A>
+		
+		
+<table id="partb" width="100%">
+	<tr class="sublabel">
+		<td width="85%"
+			style="font-size: 14; font-weight: bold; text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		PART B - Details of Tax Collected At Source</td>
+		<td width="15%"
+			style="font-size: 12; font-weight: normal; text-align: right">(All
+		Amounts in INR)</td>
+	</tr>
+</table>
+		
+	<div cellspacing="0" cellpadding="0" style="padding: 0px">
+	<table id="partb" width="100%" border="1" cellspacing="0"
+		bordercolor="white">
+	
+			<thead>
+	<tr class="table" style="font-size: 11; font-weight: bold">
+		<td align="center" width="2%" id="fix1">Sr.No. <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		(509)</td>
+		<td align="center" width="15%" id="fix1">Name of the Collector <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		(510)</td>
+		<td align="center" width="8%" id="fix1">TAN of <br>
+		the <br>
+		Collector <br>
+		<br>
+		<br>
+		(511)</td>
+		<td align="center" width="7%" id="fix1">Section <br>
+		Under <br>
+		which <br>
+		collection <br>
+		made** <br>
+		(512)</td>
+		<td align="center" width="7%" id="fix1">Date <br>
+		on which <br>
+		amount <br>
+		paid/debited <br>
+		<br>
+		(513)</td>
+		<td align="center" width="9%" id="fix1">Amount <br>
+		paid/ <br>
+		debited <br>
+		<br>
+		<br>
+		(514)</td>
+		<td align="center" width="9%" id="fix1">Amount of Tax <br>
+		collected <br>
+		(TCS+<br>
+		Surcharge +<br>
+		Education Cess) <br>
+		(515)</td>
+		<td align="center" width="9%" id="fix1">TCS deposited <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		(516)</td>
+		<td align="center" width="8%" id="fix1">Status of<br>
+		Booking<br>
+		(P/F/U)@<br>
+		<br>
+		</td>
+		<td align="center" width="8%" id="fix1">Date of<br>
+		Booking<br>
+		<br>
+		<br>
+		<br>
+		</td>
+		<td align="center" width="7%" id="fix1">Remarks (in<br>
+		case of<br>
+		reversals)*<br>
+		<br>
+		<br>
+		</td>
+	</tr>
+</thead>	
+		
+	<tbody style="font-size: 11; font-weight: bold">
+
+	
+	
+	</tbody>
+	</table>
+	</div>
+	<br>
+	
+	
+			
+<table width="100%">
+	<tr class="H6">
+		<td align="center">* * * No Transactions Present * * *</td>
+	</tr>
+</table>
+<br>
+<br>
+<br>
+			
+	
+
+	<table>
+		<tr>
+			<td align="left"><A href="/TIN/ViewForm16.do?assessyear=2012-13&d_flag=1&getName=Form26AS(TaxStatement)#q5" class="link"><I>Back to Top</I></A>
+			</td>
+		</tr>
+	</table>
+
+	<A name="q3"></A>
+
+		
+<table width="100%">
+	<tr class="sublabel">
+		<td width="85%"
+			style="font-size: 14; font-weight: bold; text-align: center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		PART C - Details of Tax Paid (Other than TDS or TCS)</td>
+		<td width="15%"
+			style="font-size: 12; font-weight: normal; text-align: right">(All
+		Amounts in INR)</td>
+	</tr>
+</table>
+
+	
+
+	<div cellspacing="0" cellpadding="0" style="padding: 0px">
+	<table id="partc" width="100%" border="1" cellspacing="0" bordercolor="white">
+		
+					<thead>
+			<tr class="table" style="font-size: 11; font-weight: bold">
+				<td align=center width="2%">Sr.No. <br>
+				<br>
+				(517)</td>
+				<td align="center" width="5%" id="fix2">Major <br>
+				Head Code# <br>
+				(518)</td>
+				<td align="center" width="4%" id="fix2">Minor <br>
+				Head Code% <br>
+				(519)</td>
+				<td align="center" width="10%" id="fix2">Tax <br>
+				<br>
+				(520)</td>
+				<td align="center" width="8%" id="fix2">Surcharge <br>
+				<br>
+				(521)</td>
+				<td align="center" width="8%" id="fix2">Education<br>
+				Cess <br>
+				(522)</td>
+				<td align="center" width="8%" id="fix2">Interest <br>
+				<br>
+				(523)</td>
+				<td align="center" width="8%" id="fix2">Others <br>
+				<br>
+				(524)</td>
+				<td align="center" width="10%" id="fix2">Total Tax <br>
+				<br>
+				(525)</td>
+				<td align="center" width="7%" id="fix2">BSR Code <br>
+				<br>
+				(526)</td>
+				<td align="center" width="7%" id="fix2">Date on Which<br>
+				Tax Deposited <br>
+				(527)</td>
+				<td align="center" width="7%" id="fix2">Challan <br>
+				Serial No.<br>
+				(528)</td>
+				<td align="center" width="6%" id="fix2">Remarks (in<br>
+				case of<br>
+				reversals)*<br>
+				<br>
+				<br>
+				</td>
+			</tr>
+		</thead>
+			
+		<tbody style="font-size: 11; font-weight: bold">
+
+	
+	
+	</tbody>
+	</table>
+	</div>
+	<br>
+	<br>
+	
+	
+
+					
+<table width="100%">
+	<tr class="H6">
+		<td align="center">* * * No Transactions Present * * *</td>
+	</tr>
+</table>
+<br>
+<br>
+<br>	
+	
+
+	<table>
+		<tr>
+			<td align="left"><A href="/TIN/ViewForm16.do?assessyear=2012-13&d_flag=1&getName=Form26AS(TaxStatement)#q5" class="link"><I>Back to Top</I></A>
+			</td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+		<tr></tr>
+	</table>
+
+	
+
+	<A name="q6"></A>
+
+			
+<table width="100%">
+	<tr class="sublabel">
+		<td width="85%"
+			style="font-size: 14; font-weight: bold; text-align: center">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Details of Paid Refund</td>
+		<td width="15%"
+			style="font-size: 12; font-weight: normal; text-align: right">(All
+		Amounts in INR)</td>
+	</tr>
+</table>
+
+	<div cellspacing="0" cellpadding="0" style="padding: 0px">
+	<table id="partd" width="100%" border="1" cellspacing="0"
+		bordercolor="white">
+		
+			<thead>
+<tr class="table" style="font-size: 11; font-weight: bold">
+	<td align=center width="2%" id="fix3"><br>
+	Sr.No.<br>
+	<br>
+	</td>
+	<td align="center" width="10%" id="fix3"><br>
+	Assessment year for which Refund is Paid <br>
+	<br>
+	</td>
+	<td align="center" width="10%" id="fix3"><br>
+	Mode of Payment <br>
+	<br>
+	</td>
+	<td align="center" width="5%" id="fix3"><br>
+	Amount of Refund <br>
+	<br>
+	</td>
+	<td align="center" width="5%" id="fix3"><br>
+	Date of Payment<br>
+	<br>
+	</td>
+	<td align="center" width="5%" id="fix3"><br>
+	Remark<br>
+	<br>
+	</td>
+</tr>
+</thead>
+			
+		<tbody style="font-size: 11; font-weight: bold">
+
+	
+
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+				<td align=right>1</td>
+				<td align="center">2011-12</td>
+				<td align="center">PAPER               </td>
+
+
+				
+				
+				<td align="right">2870.00</td>				
+				
+				
+
+				<td align="right">24-09-2011</td>
+				<td align="center">&nbsp;</td>
+			</tr>
+
+	
+
+			<tr class="tabledetails" style="font-size: 11; font-weight: bold">
+				<td>&nbsp;</td>
+				<td align=left style="font-weight: bold">Total</td>
+				<td>&nbsp;</td>
+				<td align=right style="font-weight: bold">2870.00</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+	
+		</tbody>
+	</table>
+	</div>
+	<br>
+	
+
+			
+<table width=100%>
+	<tr>
+		<td class="H7" width="10%" align="right"><input type="button"
+			name="download" value="Click Here" onclick="callWebDownload();"></td>
+		<td class="H7" width="90%" align="left">to download Form 26AS in text format.</td>
+	</tr>
+	<tr>
+		<td class="H7" width="10%" align="right"><input type="button"
+			name="downloadPDF" value="Click Here" onclick="callDownloadPDF();"></td>
+		<td class="H7" width="90%" align="left">to download Form 26AS in PDF format.</td>
+	</tr>
+	
+</table>
+
+<table width=100%>
+	<tr>
+		<td class="H7" width="100%" align="left">To extract the zip file / to open PDF file,
+		please enter the date of birth in case of individual tax payers and
+		the date of incorporation for non-individual tax payers as password in
+		the format of DDMMYYYY (Date of Birth/ Date of Incorporation should be
+		same as printed on PAN card). For example, if your date of birth /
+		incorporation is November 23, 1985 then the password will be 23111985.
+		<br>
+		<br>
+		For extraction of files use WinZip version 9.0 and above, WinRaR
+		version 3.90 and above and 7-Zip version 4.65 and above.
+		<br/>
+		<br/>
+		To open PDF file use Adobe Reader version 5.0 and above.
+		</td>
+	</tr>
+</table>
+
+
+	<table>
+		<tr>
+			<td align="left"><A href="/TIN/ViewForm16.do?assessyear=2012-13&d_flag=1&getName=Form26AS(TaxStatement)#q5" class="link"><I>Back to Top</I></A>
+			</td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+		<tr></tr>
+		<tr>
+			<td class="H7">The data is updated till 23-05-2012</td>
+		</tr>
+	</table>
+	
+		
+<table>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr>
+		<td class="H6">NOTE:</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td class="H7">1. The figures in the brackets represent reversal
+		(negative) entries.</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td class="H7">2. In 'Part C' Details of Tax Paid (Other than TDS or
+		TCS) payments related to Securities Transaction Tax and Banking Cash
+		Transaction Tax are not displayed.</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td class="H7">3. Tax Credits appearing in the Annual Tax Statement
+		are on the basis of the details given by the deductor in the TDS/TCS
+		statement filed by him. The same should be verified before claiming
+		tax credit and only the amount which pertains to you should be
+		claimed.</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td class="H7">4. This statement is issued on behalf of the Income Tax Department.</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td class="H7">5. This statement does not include payments pertaining to assessment
+		year other than mentioned above, and payments against penalties.</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td class="H7">6. Date in DD-MM-YYYY format.</td>
+	</tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr>
+		<td class="H6">Legends</td>
+	</tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+
+	<tr>
+		<td class="H6">@ Status of Booking (P/F/U)</td>
+	</tr>
+
+	<tr>
+		<td>
+		<table>
+			<tr>
+				<td class="H7" valign="top" nowrap="nowrap">Provisional (P) -</td>
+				<td class="H7">Only for TDS/TCS affected by Government deductors.
+				Provisional tax credit is effected on the basis of TDS/TCS
+				statements filed only. On verification of the payment details by the
+				Pay & Accounts Officer (PAO), status will change to Final (F).</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table>
+			<tr>
+				<td class="H7" valign="top" nowrap="nowrap">Unmatched (U) -</td>
+				<td class="H7">Deductors have not deposited the taxes or have
+				furnished incorrect particulars of tax payment. Final credit will be
+				reflected only when the payment details in the bank match with the
+				details of deposit in the TDS/TCS statement.</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table>
+			<tr>
+				<td class="H7" valign="top" nowrap="nowrap">Final (F)
+				-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td class="H7">In case of non-Government deductors, payment details
+				of TDS/TCS deposited in bank by the deductor have matched with the
+				payment details mentioned in the TDS/TCS statement filed by the
+				deductor.<br></br>
+				In case of Government deductors, details of TDS/TCS booked in
+				Government account have been verified by the Pay & Accounts Officer
+				(PAO).</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr>
+		<td class="H6">* Remarks</td>
+	</tr>
+	<tr>
+		<td class="H7">'A'- Rectification of error in Challan Uploaded by bank</td>
+	</tr>
+	<tr>
+		<td class="H7">'B'- Rectification of error in Statement Uploaded by
+		deductor</td>
+	</tr>
+	<tr>
+		<td class="H7">'C'- Rectification of error in AIR filed by filer</td>
+	</tr>
+ 	
+	<tr>
+		<td class="H7">'D'- Rectification of error in Form 24G filed by Accounts Officer</td>
+    </tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr>
+		<td class="H6">% Minor Head Codes</td>
+	</tr>
+	<tr>
+		<td class="H7">100 - Advance Tax</td>
+	</tr>
+	<tr>
+		<td class="H7">102 - Surtax</td>
+	</tr>
+	<tr>
+		<td class="H7">106 - Tax on distributed profit of domestic companies</td>
+	</tr>
+	<tr>
+		<td class="H7">107 - Tax on distributed income to unit holder</td>
+	</tr>
+	<tr>
+		<td class="H7">300 - Self Assessment tax</td>
+	</tr>
+	<tr>
+		<td class="H7">400 - Tax on Regular assessment</td>
+	</tr>
+
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr>
+		<td class="H6"># Major Head Codes</td>
+	</tr>
+	<tr>
+		<td class="H7">0020 - Corporation Tax</td>
+	</tr>
+	<tr>
+		<td class="H7">0021 - Income-tax(other than companies)</td>
+	</tr>
+	<tr>
+		<td class="H7">0023 - Hotel Receipt Tax</td>
+	</tr>
+	<tr>
+		<td class="H7">0024 - Interest Tax</td>
+	</tr>
+	<tr>
+		<td class="H7">0026 - Fringe Benefit Tax</td>
+	</tr>
+	<tr>
+		<td class="H7">0028 - Expenditure Tax / Other Taxes</td>
+	</tr>
+	<tr>
+		<td class="H7">0031 - Estate Duty</td>
+	</tr>
+	<tr>
+		<td class="H7">0032 - Wealth Tax</td>
+	</tr>
+	<tr>
+		<td class="H7">0033 - Gift Tax</td>
+	</tr>
+
+
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr>
+		<td class="H6">** Section</td>
+	</tr>
+</table>
+<table>
+	<tr class="H7">
+		<td>192</td>
+		<td align="left">-</td>
+		<td align="left">Salary</td>
+	</tr>
+	<tr class="H7">
+		<td>193</td>
+		<td align="left">-</td>
+		<td align="left">Interest on Securities</td>
+	</tr>
+	<tr class="H7">
+		<td>194</td>
+		<td align="left">-</td>
+		<td align="left">Dividends</td>
+	</tr>
+	<tr class="H7">
+		<td>194A</td>
+		<td align="left">-</td>
+		<td align="left">Interest other than 'Interest on securities'</td>
+	</tr>
+	<tr class="H7">
+		<td>194B</td>
+		<td align="left">-</td>
+		<td align="left">Winning from lottery or crossword puzzle</td>
+	</tr>
+	<tr class="H7">
+		<td>194BB</td>
+		<td align="left">-</td>
+		<td align="left">Winning from horse race</td>
+	</tr>
+	<tr class="H7">
+		<td>194C</td>
+		<td align="left">-</td>
+		<td align="left">Payments to contractors and sub-contractors</td>
+	</tr>
+	<tr class="H7">
+		<td>194D</td>
+		<td align="left">-</td>
+		<td align="left">Insurance commission</td>
+	</tr>
+	<tr class="H7">
+		<td>194E</td>
+		<td align="left">-</td>
+		<td align="left">Payments to non-resident sportsmen or sports
+		associations</td>
+	</tr>
+	<tr class="H7">
+		<td>194EE</td>
+		<td align="left">-</td>
+		<td align="left">Payments in respect of deposits under National
+		Savings Scheme</td>
+	</tr>
+	<tr class="H7">
+		<td>194F</td>
+		<td align="left">-</td>
+		<td align="left">Payments on account of repurchase of units by Mutual
+		Fund or Unit Trust of India</td>
+	</tr>
+	<tr class="H7">
+		<td>194G</td>
+		<td align="left">-</td>
+		<td align="left">Commission, price, etc., on the sale of lottery
+		tickets</td>
+	</tr>
+	<tr class="H7">
+		<td>194H</td>
+		<td align="left">-</td>
+		<td align="left">Commission or brokerage</td>
+	</tr>
+	<tr class="H7">
+		<td>194I</td>
+		<td align="left">-</td>
+		<td align="left">Rent</td>
+	</tr>
+	<tr class="H7">
+		<td>194J</td>
+		<td align="left">-</td>
+		<td align="left">Fees for professional or technical services</td>
+	</tr>
+	<tr class="H7">
+		<td>194K</td>
+		<td align="left">-</td>
+		<td align="left">Income payable to a resident assessee in respect of
+		units of a specified mutual fund or of the units of the Unit Trust of
+		India</td>
+	</tr>
+	<tr class="H7">
+		<td>194LA</td>
+		<td align="left">-</td>
+		<td align="left">Payment of compensation on acquisition of certain
+		immovable property</td>
+	</tr>
+	<tr class="H7">
+		<td>195</td>
+		<td align="left">-</td>
+		<td align="left">Other sums payable to a non-residents</td>
+	</tr>
+	<tr class="H7">
+		<td>196A</td>
+		<td align="left">-</td>
+		<td align="left">Income in respect of units of non-residents</td>
+	</tr>
+	<tr class="H7">
+		<td>196B</td>
+		<td align="left">-</td>
+		<td align="left">Payments in respect of units to an offshore fund</td>
+	</tr>
+	<tr class="H7">
+		<td>196C</td>
+		<td align="left">-</td>
+		<td align="left">Income from foreign currency bonds or shares of
+		indian company payable to non-residents</td>
+	</tr>
+	<tr class="H7">
+		<td>196D</td>
+		<td align="left">-</td>
+		<td align="left">Income of foreign institutional investors from
+		securities</td>
+	</tr>
+	<tr class="H7">
+		<td>206CA</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from alcoholic liquor for human
+		consumption</td>
+	</tr>
+	<tr class="H7">
+		<td>206CB</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from timber obtained under
+		forest lease</td>
+	</tr>
+	<tr class="H7">
+		<td>206CC</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from timber obtained by any mode
+		other than a forest lease</td>
+	</tr>
+	<tr class="H7">
+		<td>206CD</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from any other forest produce
+		(not being tendu leaves)</td>
+	</tr>
+	<tr class="H7">
+		<td>206CE</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from any scrap</td>
+	</tr>
+	<tr class="H7">
+		<td>206CF</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from contractors or licensee or
+		lease relating to parking lots</td>
+	</tr>
+	<tr class="H7">
+		<td>206CG</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from contractors or licensee or
+		lease relating to toll plaza</td>
+	</tr>
+	<tr class="H7">
+		<td>206CH</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from contractors or licensee or
+		lease relating to mine or quarry</td>
+	</tr>
+	<tr class="H7">
+		<td>206CI</td>
+		<td align="left">-</td>
+		<td align="left">Collection at source from tendu Leaves</td>
+	</tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+	<tr></tr>
+</table>
+
+	
+	
+
+</form>
+</BODY>
+</HTML>
+
+</div>
+</div>
+<div id="footerui">
+</div>
+</div>
+<div class="copyright">&copy; Copyright 2010 &nbsp;|&nbsp; National Securities Depository Limited (NSDL).</div>
+</body>
+</html>
+
+</BODY>
+</HTML>

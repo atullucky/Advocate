@@ -1,0 +1,130 @@
+Jun 24, 2014 8:21:56 PM com.tcs.efiling.itr.config.Logger info
+INFO: init starts
+Jun 24, 2014 8:21:57 PM com.tcs.efiling.itr.config.Logger info
+INFO: init ends in 797 ms.
+Jun 24, 2014 8:21:57 PM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method starts
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: openNewITR starts with values: asstYear:2014-15,itr:ITR-1,ver:1.0,importXml:null
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: Opening ITR: ITR-1 For AsstYear: 2014-15
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: generateCopy starts
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: initialize starts
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: initialize ends
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation starts
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: webViewActWidth in: 808.96,vboxActWidth:  174.08,mainController.windowWidth: 1024.0
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: hide validation
+Jun 24, 2014 8:21:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: hideShowValidation ends
+Jun 24, 2014 8:22:00 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in openNewITR(): 937
+Jun 24, 2014 8:22:00 PM com.tcs.efiling.itr.config.Logger info
+INFO: calculateITR starts
+Jun 24, 2014 8:22:00 PM com.tcs.efiling.itr.config.Logger info
+INFO: mainController.windowWidth new : 1024.0
+Jun 24, 2014 8:22:01 PM com.tcs.efiling.itr.config.Logger info
+INFO: MainLoader start method ends. Time taken: 3625
+Jun 24, 2014 8:22:05 PM com.tcs.efiling.itr.config.Logger info
+INFO: javascript: to run: 
+Jun 24, 2014 8:22:05 PM com.tcs.efiling.itr.config.Logger info
+INFO: time taken in changed : 719
+Jun 24, 2014 8:30:32 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 24, 2014 8:32:41 PM com.tcs.efiling.itr.config.Logger info
+INFO: newFile starts
+Jun 24, 2014 8:32:41 PM com.tcs.efiling.itr.config.Logger info
+INFO: saveIfNot starts: type: 3
+Jun 24, 2014 8:32:41 PM com.tcs.efiling.itr.config.Logger info
+INFO: saveIfNot after shows: 
+Jun 24, 2014 8:32:41 PM com.tcs.efiling.itr.config.Logger info
+INFO: newFile ends
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: show validation
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken in validateAll(): 0
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.creationInfo.xmlCreationDate
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: totalPage
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: returnType
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: customReturnType
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: 
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.currentPage
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.itr1TaxComputationOnline.surchargeOnTaxPayable
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr1.tdSonSalaries.tdSonSalary[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_IT
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr1.tdSonOthThanSals.tdSonOthThanSal[0].employerOrDeductorOrCollectDetl.chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.taxPayments.taxPayment[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr1.taxPayments.taxPayment[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr1.schedule80G.don100Percent.doneeWithPan[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don100Percent.doneeWithPan[0].eligibleDonationAmt
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don100Percent.totDon100Percent
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don100Percent.totEligibleDon100Percent
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: Count_SCH_TDS1
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don50PercentNoApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don50PercentNoApprReqd.totDon50PercentNoApprReqd
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don50PercentNoApprReqd.totEligibleDon50Percent
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don100PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don100PercentApprReqd.totDon100PercentApprReqd
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don100PercentApprReqd.totEligibleDon100PercentApprReqd
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: __checkbox_itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].chosenCheckBox
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don50PercentApprReqd.doneeWithPan[0].eligibleDonationAmt
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don50PercentApprReqd.totDon50PercentApprReqd
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger warn
+WARNING: No validation for field: itr1.schedule80G.don50PercentApprReqd.totEligibleDon50PercentApprReqd
+Jun 24, 2014 8:32:59 PM com.tcs.efiling.itr.config.Logger info
+INFO: Call() ends time taken: 157  error count :0
+Jun 24, 2014 8:33:36 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to start generateXml(): 15
+Jun 24, 2014 8:33:38 PM com.tcs.efiling.itr.config.Logger info
+INFO: outputfilePathD:\Advocate\I.Tax\Ankur Sonipat(A-021)\AMIT MOHANTA\AMIT.xml,generateXmlFlag: true
+Jun 24, 2014 8:33:43 PM com.tcs.efiling.itr.config.Logger info
+INFO: done with schema error; 0
+Jun 24, 2014 8:33:43 PM com.tcs.efiling.itr.config.Logger info
+INFO: Time taken to generate: 7360
